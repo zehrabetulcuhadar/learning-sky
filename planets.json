@@ -1,0 +1,8 @@
+[
+  {"id": "dotnet",       "name": ".NET",          "label": "~/dotnet",        "color": "#a78bfa", "style": "ring"},
+  {"id": "angular",      "name": "Angular",       "label": "~/angular",       "color": "#f87171", "style": "bands"},
+  {"id": "typescript",   "name": "TypeScript",    "label": "~/typescript",    "color": "#38bdf8", "style": "moon"},
+  {"id": "architecture", "name": "Architecture",  "label": "~/architecture",  "color": "#34d399", "style": "wire"},
+  {"id": "systemdesign", "name": "System Design", "label": "~/system-design", "color": "#f472b6", "style": "ring"},
+  {"id": "english",      "name": "English",       "label": "~/english",       "color": "#fb923c", "style": "craters"}
+]
