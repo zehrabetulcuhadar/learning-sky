@@ -15,7 +15,7 @@
 
 <div align="center">
 
-✦ The first star is on its way · 9 planets. Click a planet to see its posts.
+<a href="#-posts"><img src="sky-stats.svg" width="100%" alt="0 stars in the learning sky"></a>
 
 </div>
 <!-- SKY:END -->
