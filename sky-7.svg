@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="700.00 0 100.00 420" width="100" height="420" role="img" aria-label="~/english">
+<title>English</title>
+<clipPath id="tile"><path d="M 700.0 0 H 800.0 V 420 H 700.0 Z"/></clipPath><g clip-path="url(#tile)">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b1f"/><stop offset=".55" stop-color="#14103a"/><stop offset="1" stop-color="#241552"/></linearGradient>
+<radialGradient id="gold" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fcd34d"/></radialGradient>
+<linearGradient id="tail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<radialGradient id="h-basics" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F7C548" stop-opacity=".35"/><stop offset="1" stop-color="#F7C548" stop-opacity="0"/></radialGradient>
+<radialGradient id="h-backend" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F2766B" stop-opacity=".35"/><stop offset="1" stop-color="#F2766B" stop-opacity="0"/></radialGradient>
+<radialGradient id="h-frontend" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F28AC0" stop-opacity=".35"/><stop offset="1" stop-color="#F28AC0" stop-opacity="0"/></radialGradient>
+<radialGradient id="h-data" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#4FC7B8" stop-opacity=".35"/><stop offset="1" stop-color="#4FC7B8" stop-opacity="0"/></radialGradient>
+<radialGradient id="h-quality" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8FD694" stop-opacity=".35"/><stop offset="1" stop-color="#8FD694" stop-opacity="0"/></radialGradient>
+<radialGradient id="h-architecture" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#7C8CF2" stop-opacity=".35"/><stop offset="1" stop-color="#7C8CF2" stop-opacity="0"/></radialGradient>
+<radialGradient id="h-ai" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#B79BF5" stop-opacity=".35"/><stop offset="1" stop-color="#B79BF5" stop-opacity="0"/></radialGradient>
+<radialGradient id="h-english" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F9A65A" stop-opacity=".35"/><stop offset="1" stop-color="#F9A65A" stop-opacity="0"/></radialGradient>
+<radialGradient id="h-news" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#6CC5EE" stop-opacity=".35"/><stop offset="1" stop-color="#6CC5EE" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 4s ease-in-out infinite}
+.st{transform-box:fill-box;transform-origin:center;animation:st 3.4s ease-in-out infinite}
+.new{transform-box:fill-box;transform-origin:center;animation:nw 2.2s ease-in-out infinite}
+.ring{transform-box:fill-box;transform-origin:center;animation:rg 2.2s ease-out infinite}
+.pl{animation:fl 7s ease-in-out infinite}
+.ss{animation:shoot 10s linear infinite;opacity:0}
+.lbl{font:500 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c7d2fe;text-anchor:middle}
+.ttl{font:700 20px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#f5f3ff}
+.sub{font:500 13px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#a5b4fc}
+@keyframes tw{0%,100%{opacity:.25}50%{opacity:.9}}
+@keyframes st{0%,100%{opacity:.55;transform:scale(.8) rotate(0)}50%{opacity:1;transform:scale(1.1) rotate(45deg)}}
+@keyframes nw{0%,100%{opacity:.8;transform:scale(1) rotate(0)}50%{opacity:1;transform:scale(1.35) rotate(45deg)}}
+@keyframes rg{0%{opacity:.7;transform:scale(.6)}100%{opacity:0;transform:scale(2.2)}}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes shoot{0%{transform:translateX(0);opacity:0}1%{opacity:1}8%{transform:translateX(440px);opacity:0}100%{transform:translateX(440px);opacity:0}}
+@media (prefers-reduced-motion:reduce){.tw,.st,.new,.ring,.pl,.ss{animation:none}.ring,.ss{opacity:0}}
+</style>
+<rect width="900" height="420" fill="url(#bg)"/>
+<circle class="tw" cx="407.7" cy="233.9" r="1.6" fill="#e0e7ff" style="animation-delay:1.81s;animation-duration:5.6s"/>
+<circle class="tw" cx="174.6" cy="331.6" r="1.6" fill="#e0e7ff" style="animation-delay:2.52s;animation-duration:5.4s"/>
+<circle class="tw" cx="89.6" cy="131.4" r="0.8" fill="#e0e7ff" style="animation-delay:2.15s;animation-duration:5.7s"/>
+<circle class="tw" cx="569.4" cy="248.2" r="1.6" fill="#e0e7ff" style="animation-delay:3.86s;animation-duration:5.0s"/>
+<circle class="tw" cx="552.6" cy="73.0" r="0.8" fill="#e0e7ff" style="animation-delay:3.33s;animation-duration:3.2s"/>
+<circle class="tw" cx="37.7" cy="361.8" r="0.8" fill="#e0e7ff" style="animation-delay:3.11s;animation-duration:4.0s"/>
+<circle class="tw" cx="530.8" cy="88.1" r="1" fill="#e0e7ff" style="animation-delay:2.56s;animation-duration:4.5s"/>
+<circle class="tw" cx="594.3" cy="192.9" r="1.2" fill="#e0e7ff" style="animation-delay:1.63s;animation-duration:4.7s"/>
+<circle class="tw" cx="833.3" cy="43.3" r="1.2" fill="#e0e7ff" style="animation-delay:1.26s;animation-duration:3.7s"/>
+<circle class="tw" cx="262.7" cy="38.1" r="0.8" fill="#e0e7ff" style="animation-delay:1.60s;animation-duration:5.5s"/>
+<circle class="tw" cx="349.2" cy="393.2" r="0.8" fill="#e0e7ff" style="animation-delay:0.85s;animation-duration:5.8s"/>
+<circle class="tw" cx="52.5" cy="160.2" r="1.6" fill="#e0e7ff" style="animation-delay:1.68s;animation-duration:4.7s"/>
+<circle class="tw" cx="182.3" cy="280.0" r="1.2" fill="#e0e7ff" style="animation-delay:0.35s;animation-duration:4.0s"/>
+<circle class="tw" cx="862.1" cy="313.2" r="0.8" fill="#e0e7ff" style="animation-delay:0.54s;animation-duration:5.1s"/>
+<circle class="tw" cx="15.7" cy="196.0" r="1.6" fill="#e0e7ff" style="animation-delay:0.71s;animation-duration:4.7s"/>
+<circle class="tw" cx="403.3" cy="86.3" r="1" fill="#e0e7ff" style="animation-delay:1.68s;animation-duration:4.2s"/>
+<circle class="tw" cx="356.6" cy="406.0" r="0.8" fill="#e0e7ff" style="animation-delay:1.08s;animation-duration:5.9s"/>
+<circle class="tw" cx="719.4" cy="131.7" r="0.8" fill="#e0e7ff" style="animation-delay:0.84s;animation-duration:4.2s"/>
+<circle class="tw" cx="764.7" cy="266.7" r="0.8" fill="#e0e7ff" style="animation-delay:0.17s;animation-duration:3.4s"/>
+<circle class="tw" cx="398.1" cy="13.8" r="1.2" fill="#e0e7ff" style="animation-delay:3.32s;animation-duration:4.2s"/>
+<circle class="tw" cx="72.0" cy="93.5" r="1" fill="#e0e7ff" style="animation-delay:0.06s;animation-duration:4.1s"/>
+<circle class="tw" cx="558.5" cy="60.9" r="1.6" fill="#e0e7ff" style="animation-delay:3.33s;animation-duration:3.4s"/>
+<circle class="tw" cx="348.9" cy="260.9" r="1.2" fill="#e0e7ff" style="animation-delay:3.63s;animation-duration:5.5s"/>
+<circle class="tw" cx="227.6" cy="85.9" r="1" fill="#e0e7ff" style="animation-delay:2.75s;animation-duration:4.2s"/>
+<circle class="tw" cx="434.5" cy="41.4" r="0.8" fill="#e0e7ff" style="animation-delay:0.42s;animation-duration:3.1s"/>
+<circle class="tw" cx="860.9" cy="105.4" r="1.6" fill="#e0e7ff" style="animation-delay:1.03s;animation-duration:5.5s"/>
+<circle class="tw" cx="535.7" cy="127.4" r="1" fill="#e0e7ff" style="animation-delay:3.72s;animation-duration:5.9s"/>
+<circle class="tw" cx="118.2" cy="201.7" r="0.8" fill="#e0e7ff" style="animation-delay:1.12s;animation-duration:5.8s"/>
+<circle class="tw" cx="187.1" cy="16.6" r="1.2" fill="#e0e7ff" style="animation-delay:1.65s;animation-duration:3.7s"/>
+<circle class="tw" cx="47.4" cy="122.8" r="1" fill="#e0e7ff" style="animation-delay:0.37s;animation-duration:3.4s"/>
+<circle class="tw" cx="405.9" cy="142.4" r="1" fill="#e0e7ff" style="animation-delay:2.36s;animation-duration:5.8s"/>
+<circle class="tw" cx="427.6" cy="153.0" r="1.2" fill="#e0e7ff" style="animation-delay:3.85s;animation-duration:3.1s"/>
+<circle class="tw" cx="570.9" cy="202.9" r="1.2" fill="#e0e7ff" style="animation-delay:1.28s;animation-duration:6.0s"/>
+<circle class="tw" cx="72.8" cy="228.4" r="0.8" fill="#e0e7ff" style="animation-delay:3.60s;animation-duration:5.2s"/>
+<circle class="tw" cx="630.9" cy="327.3" r="1.2" fill="#e0e7ff" style="animation-delay:1.41s;animation-duration:5.1s"/>
+<circle class="tw" cx="805.9" cy="358.4" r="1.6" fill="#e0e7ff" style="animation-delay:3.78s;animation-duration:3.1s"/>
+<circle class="tw" cx="449.9" cy="15.8" r="1.6" fill="#e0e7ff" style="animation-delay:1.52s;animation-duration:3.0s"/>
+<circle class="tw" cx="70.2" cy="46.3" r="0.8" fill="#e0e7ff" style="animation-delay:3.97s;animation-duration:5.6s"/>
+<circle class="tw" cx="652.6" cy="165.4" r="1.6" fill="#e0e7ff" style="animation-delay:1.76s;animation-duration:5.5s"/>
+<circle class="tw" cx="80.4" cy="310.1" r="0.8" fill="#e0e7ff" style="animation-delay:1.24s;animation-duration:3.3s"/>
+<circle class="tw" cx="25.8" cy="393.0" r="0.8" fill="#e0e7ff" style="animation-delay:1.99s;animation-duration:4.8s"/>
+<circle class="tw" cx="823.4" cy="112.3" r="0.8" fill="#e0e7ff" style="animation-delay:1.47s;animation-duration:3.4s"/>
+<circle class="tw" cx="549.2" cy="217.4" r="1.2" fill="#e0e7ff" style="animation-delay:2.64s;animation-duration:4.3s"/>
+<circle class="tw" cx="797.9" cy="140.8" r="1.2" fill="#e0e7ff" style="animation-delay:0.79s;animation-duration:4.3s"/>
+<circle class="tw" cx="721.7" cy="375.7" r="1" fill="#e0e7ff" style="animation-delay:1.54s;animation-duration:4.7s"/>
+<circle class="tw" cx="287.0" cy="64.5" r="1.6" fill="#e0e7ff" style="animation-delay:1.40s;animation-duration:5.7s"/>
+<circle class="tw" cx="42.0" cy="35.7" r="1.2" fill="#e0e7ff" style="animation-delay:3.29s;animation-duration:3.3s"/>
+<circle class="tw" cx="424.6" cy="380.3" r="1.6" fill="#e0e7ff" style="animation-delay:1.53s;animation-duration:4.6s"/>
+<circle class="tw" cx="602.9" cy="296.5" r="1.6" fill="#e0e7ff" style="animation-delay:1.28s;animation-duration:5.5s"/>
+<circle class="tw" cx="253.0" cy="253.0" r="1.2" fill="#e0e7ff" style="animation-delay:2.28s;animation-duration:3.9s"/>
+<circle class="tw" cx="708.9" cy="17.6" r="1" fill="#e0e7ff" style="animation-delay:1.62s;animation-duration:3.6s"/>
+<circle class="tw" cx="689.1" cy="116.6" r="1" fill="#e0e7ff" style="animation-delay:3.19s;animation-duration:6.0s"/>
+<circle class="tw" cx="108.4" cy="53.6" r="1.2" fill="#e0e7ff" style="animation-delay:3.83s;animation-duration:5.1s"/>
+<circle class="tw" cx="183.0" cy="200.1" r="1" fill="#e0e7ff" style="animation-delay:2.86s;animation-duration:5.3s"/>
+<circle class="tw" cx="480.9" cy="24.5" r="1" fill="#e0e7ff" style="animation-delay:1.09s;animation-duration:4.0s"/>
+<circle class="tw" cx="625.2" cy="218.2" r="1" fill="#e0e7ff" style="animation-delay:1.57s;animation-duration:5.4s"/>
+<circle class="tw" cx="810.7" cy="44.9" r="1.6" fill="#e0e7ff" style="animation-delay:0.52s;animation-duration:4.4s"/>
+<circle class="tw" cx="561.5" cy="374.0" r="1.6" fill="#e0e7ff" style="animation-delay:2.20s;animation-duration:5.0s"/>
+<circle class="tw" cx="452.4" cy="337.8" r="1.2" fill="#e0e7ff" style="animation-delay:1.85s;animation-duration:5.0s"/>
+<circle class="tw" cx="187.9" cy="298.8" r="0.8" fill="#e0e7ff" style="animation-delay:0.85s;animation-duration:5.7s"/>
+<circle class="tw" cx="876.7" cy="400.9" r="1.2" fill="#e0e7ff" style="animation-delay:1.05s;animation-duration:5.2s"/>
+<circle class="tw" cx="19.9" cy="211.9" r="0.8" fill="#e0e7ff" style="animation-delay:1.76s;animation-duration:4.7s"/>
+<circle class="tw" cx="688.2" cy="205.0" r="0.8" fill="#e0e7ff" style="animation-delay:0.87s;animation-duration:5.6s"/>
+<circle class="tw" cx="386.9" cy="24.0" r="1.2" fill="#e0e7ff" style="animation-delay:2.75s;animation-duration:5.7s"/>
+<circle class="tw" cx="423.9" cy="409.9" r="1.6" fill="#e0e7ff" style="animation-delay:3.78s;animation-duration:4.5s"/>
+<circle class="tw" cx="848.8" cy="44.4" r="1" fill="#e0e7ff" style="animation-delay:1.76s;animation-duration:4.7s"/>
+<circle class="tw" cx="744.1" cy="234.6" r="1" fill="#e0e7ff" style="animation-delay:2.09s;animation-duration:5.5s"/>
+<circle class="tw" cx="503.3" cy="134.7" r="1.6" fill="#e0e7ff" style="animation-delay:3.82s;animation-duration:5.6s"/>
+<circle class="tw" cx="547.2" cy="131.8" r="1" fill="#e0e7ff" style="animation-delay:3.87s;animation-duration:4.6s"/>
+<circle class="tw" cx="514.8" cy="90.4" r="0.8" fill="#e0e7ff" style="animation-delay:2.01s;animation-duration:4.8s"/>
+<g class="pl" style="animation-delay:0.3s">
+<ellipse cx="50.0" cy="215.0" rx="38.7" ry="30.7" fill="none" stroke="#F7C548" stroke-opacity=".22" stroke-dasharray="2 6"/>
+<circle cx="50.0" cy="215.0" r="33.6" fill="url(#h-basics)"/><clipPath id="cl-basics"><circle cx="50.0" cy="215.0" r="16.0"/></clipPath><circle cx="50.0" cy="215.0" r="16.0" fill="#F7C548"/><g clip-path="url(#cl-basics)"><rect x="34.0" y="207.0" width="32.0" height="3.2" fill="#fff" fill-opacity=".28"/><rect x="34.0" y="214.2" width="32.0" height="3.2" fill="#fff" fill-opacity=".28"/><rect x="34.0" y="221.4" width="32.0" height="3.2" fill="#fff" fill-opacity=".28"/><circle cx="58.8" cy="220.6" r="16.0" fill="#05071a" fill-opacity=".42"/></g><circle cx="50.0" cy="215.0" r="16.0" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text class="lbl" x="50.0" y="269.7">~/basics</text>
+</g>
+<g class="pl" style="animation-delay:0.9s">
+<ellipse cx="150.0" cy="258.4" rx="43.4" ry="35.4" fill="none" stroke="#F2766B" stroke-opacity=".22" stroke-dasharray="2 6"/>
+<circle cx="150.0" cy="258.4" r="43.5" fill="url(#h-backend)"/><clipPath id="cl-backend"><circle cx="150.0" cy="258.4" r="20.7"/></clipPath><circle cx="150.0" cy="258.4" r="20.7" fill="#F2766B"/><g clip-path="url(#cl-backend)"><circle cx="142.8" cy="252.2" r="4.6" fill="#000" fill-opacity=".22"/><circle cx="156.2" cy="261.5" r="5.8" fill="#000" fill-opacity=".22"/><circle cx="147.9" cy="268.7" r="3.3" fill="#000" fill-opacity=".22"/><circle cx="161.4" cy="265.6" r="20.7" fill="#05071a" fill-opacity=".42"/></g><circle cx="150.0" cy="258.4" r="20.7" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text class="lbl" x="150.0" y="317.7">~/backend</text>
+</g>
+<g class="pl" style="animation-delay:1.5s">
+<ellipse cx="250.0" cy="238.2" rx="41.4" ry="33.4" fill="none" stroke="#F28AC0" stroke-opacity=".22" stroke-dasharray="2 6"/>
+<circle cx="250.0" cy="238.2" r="39.3" fill="url(#h-frontend)"/><clipPath id="cl-frontend"><circle cx="250.0" cy="238.2" r="18.7"/></clipPath><circle cx="250.0" cy="238.2" r="18.7" fill="#F28AC0"/><g clip-path="url(#cl-frontend)"><circle cx="260.3" cy="244.7" r="18.7" fill="#05071a" fill-opacity=".42"/></g><circle cx="250.0" cy="238.2" r="18.7" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/><g><circle cx="281.8" cy="238.2" r="4.1" fill="#e0e7ff"/><animateTransform attributeName="transform" type="rotate" from="0 250.0 238.2" to="360 250.0 238.2" dur="14s" repeatCount="indefinite"/></g>
+<text class="lbl" x="250.0" y="295.6">~/frontend</text>
+</g>
+<g class="pl" style="animation-delay:0.0s">
+<ellipse cx="350.0" cy="184.1" rx="39.4" ry="31.4" fill="none" stroke="#4FC7B8" stroke-opacity=".22" stroke-dasharray="2 6"/>
+<circle cx="350.0" cy="184.1" r="35.1" fill="url(#h-data)"/><clipPath id="cl-data"><circle cx="350.0" cy="184.1" r="16.7"/></clipPath><circle cx="350.0" cy="184.1" r="16.7" fill="#0b1026" fill-opacity=".85" stroke="#4FC7B8" stroke-width="2"/><g clip-path="url(#cl-data)" fill="none" stroke="#4FC7B8" stroke-opacity=".7" stroke-width="1.2"><ellipse cx="350.0" cy="184.1" rx="7.5" ry="16.7"/><ellipse cx="350.0" cy="184.1" rx="14.2" ry="16.7"/><line x1="333.3" y1="184.1" x2="366.7" y2="184.1"/><ellipse cx="350.0" cy="175.7" rx="14.5" ry="3.0"/><ellipse cx="350.0" cy="192.4" rx="14.5" ry="3.0"/></g>
+<text class="lbl" x="350.0" y="239.4">~/data</text>
+</g>
+<g class="pl" style="animation-delay:0.6s">
+<ellipse cx="450.0" cy="175.2" rx="44.0" ry="36.0" fill="none" stroke="#8FD694" stroke-opacity=".22" stroke-dasharray="2 6"/>
+<circle cx="450.0" cy="175.2" r="44.7" fill="url(#h-quality)"/><clipPath id="cl-quality"><circle cx="450.0" cy="175.2" r="21.3"/></clipPath><circle cx="450.0" cy="175.2" r="21.3" fill="#8FD694"/><g clip-path="url(#cl-quality)"><rect x="428.7" y="164.6" width="42.6" height="4.3" fill="#fff" fill-opacity=".28"/><rect x="428.7" y="174.2" width="42.6" height="4.3" fill="#fff" fill-opacity=".28"/><rect x="428.7" y="183.8" width="42.6" height="4.3" fill="#fff" fill-opacity=".28"/><circle cx="461.7" cy="182.7" r="21.3" fill="#05071a" fill-opacity=".42"/></g><circle cx="450.0" cy="175.2" r="21.3" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text class="lbl" x="450.0" y="235.2">~/quality</text>
+</g>
+<g class="pl" style="animation-delay:1.2s">
+<ellipse cx="550.0" cy="224.7" rx="42.0" ry="34.0" fill="none" stroke="#7C8CF2" stroke-opacity=".22" stroke-dasharray="2 6"/>
+<circle cx="550.0" cy="224.7" r="40.5" fill="url(#h-architecture)"/><clipPath id="cl-architecture"><circle cx="550.0" cy="224.7" r="19.3"/></clipPath><g transform="rotate(-20 550.0 224.7)"><ellipse cx="550.0" cy="224.7" rx="35.7" ry="9.7" fill="none" stroke="#7C8CF2" stroke-opacity=".55" stroke-width="3"/></g><circle cx="550.0" cy="224.7" r="19.3" fill="#7C8CF2"/><g clip-path="url(#cl-architecture)"><circle cx="560.6" cy="231.4" r="19.3" fill="#05071a" fill-opacity=".42"/></g><circle cx="550.0" cy="224.7" r="19.3" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/><g transform="rotate(-20 550.0 224.7)"><path d="M 514.3 224.7 A 35.7 9.7 0 0 0 585.7 224.7" fill="none" stroke="#7C8CF2" stroke-opacity=".85" stroke-width="3"/></g>
+<text class="lbl" x="550.0" y="282.6">~/architecture</text>
+</g>
+<g class="pl" style="animation-delay:1.8s">
+<ellipse cx="650.0" cy="259.9" rx="40.0" ry="32.0" fill="none" stroke="#B79BF5" stroke-opacity=".22" stroke-dasharray="2 6"/>
+<circle cx="650.0" cy="259.9" r="36.3" fill="url(#h-ai)"/><clipPath id="cl-ai"><circle cx="650.0" cy="259.9" r="17.3"/></clipPath><g transform="rotate(-20 650.0 259.9)"><ellipse cx="650.0" cy="259.9" rx="32.0" ry="8.7" fill="none" stroke="#B79BF5" stroke-opacity=".55" stroke-width="3"/></g><circle cx="650.0" cy="259.9" r="17.3" fill="#B79BF5"/><g clip-path="url(#cl-ai)"><circle cx="659.5" cy="266.0" r="17.3" fill="#05071a" fill-opacity=".42"/></g><circle cx="650.0" cy="259.9" r="17.3" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/><g transform="rotate(-20 650.0 259.9)"><path d="M 618.0 259.9 A 32.0 8.7 0 0 0 682.0 259.9" fill="none" stroke="#B79BF5" stroke-opacity=".85" stroke-width="3"/></g>
+<text class="lbl" x="650.0" y="315.9">~/ai</text>
+</g>
+<g class="pl" style="animation-delay:0.3s">
+<ellipse cx="750.0" cy="229.4" rx="44.7" ry="36.7" fill="none" stroke="#F9A65A" stroke-opacity=".22" stroke-dasharray="2 6"/>
+<circle cx="750.0" cy="229.4" r="46.2" fill="url(#h-english)"/><clipPath id="cl-english"><circle cx="750.0" cy="229.4" r="22.0"/></clipPath><circle cx="750.0" cy="229.4" r="22.0" fill="#F9A65A"/><g clip-path="url(#cl-english)"><circle cx="742.3" cy="222.8" r="4.8" fill="#000" fill-opacity=".22"/><circle cx="756.6" cy="232.7" r="6.2" fill="#000" fill-opacity=".22"/><circle cx="747.8" cy="240.4" r="3.5" fill="#000" fill-opacity=".22"/><circle cx="762.1" cy="237.1" r="22.0" fill="#05071a" fill-opacity=".42"/></g><circle cx="750.0" cy="229.4" r="22.0" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text class="lbl" x="750.0" y="290.0">~/english</text>
+</g>
+<g class="pl" style="animation-delay:0.9s">
+<ellipse cx="850.0" cy="177.7" rx="42.7" ry="34.7" fill="none" stroke="#6CC5EE" stroke-opacity=".22" stroke-dasharray="2 6"/>
+<circle cx="850.0" cy="177.7" r="42.0" fill="url(#h-news)"/><clipPath id="cl-news"><circle cx="850.0" cy="177.7" r="20.0"/></clipPath><circle cx="850.0" cy="177.7" r="20.0" fill="#6CC5EE"/><g clip-path="url(#cl-news)"><circle cx="861.0" cy="184.7" r="20.0" fill="#05071a" fill-opacity=".42"/></g><circle cx="850.0" cy="177.7" r="20.0" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/><g><circle cx="884.0" cy="177.7" r="4.4" fill="#e0e7ff"/><animateTransform attributeName="transform" type="rotate" from="0 850.0 177.7" to="360 850.0 177.7" dur="14s" repeatCount="indefinite"/></g>
+<text class="lbl" x="850.0" y="236.4">~/news</text>
+</g>
+<g transform="translate(40 90) rotate(26)"><g class="ss" style="animation-delay:1.5s"><line x1="-90" y1="0" x2="0" y2="0" stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/><circle r="2.2" fill="#fff"/></g></g>
+<g transform="translate(120 250) rotate(26)"><g class="ss" style="animation-delay:5.5s"><line x1="-90" y1="0" x2="0" y2="0" stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/><circle r="2.2" fill="#fff"/></g></g>
+<g transform="translate(260 40) rotate(26)"><g class="ss" style="animation-delay:8.2s"><line x1="-90" y1="0" x2="0" y2="0" stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/><circle r="2.2" fill="#fff"/></g></g>
+</g></svg>

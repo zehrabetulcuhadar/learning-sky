@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "generatedAt": "2026-11-18T16:39:34Z",
+  "planets": [
+    {
+      "id": "basics",
+      "name": "Basics",
+      "color": "#F7C548",
+      "style": "bands",
+      "count": 0
+    },
+    {
+      "id": "backend",
+      "name": "Backend",
+      "color": "#F2766B",
+      "style": "craters",
+      "count": 0
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend",
+      "color": "#F28AC0",
+      "style": "moon",
+      "count": 0
+    },
+    {
+      "id": "data",
+      "name": "Data",
+      "color": "#4FC7B8",
+      "style": "wire",
+      "count": 0
+    },
+    {
+      "id": "quality",
+      "name": "Quality",
+      "color": "#8FD694",
+      "style": "bands",
+      "count": 0
+    },
+    {
+      "id": "architecture",
+      "name": "Architecture",
+      "color": "#7C8CF2",
+      "style": "ring",
+      "count": 0
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "color": "#B79BF5",
+      "style": "ring",
+      "count": 0
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "color": "#F9A65A",
+      "style": "craters",
+      "count": 0
+    },
+    {
+      "id": "news",
+      "name": "News",
+      "color": "#6CC5EE",
+      "style": "moon",
+      "count": 0
+    }
+  ],
+  "posts": []
+}
