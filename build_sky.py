@@ -6,10 +6,19 @@ Outputs (all regenerated, do not edit by hand):
   topics/<id>.md     one page per planet listing its posts
   sky-embed.md       tile block with absolute URLs, for the profile README
   README.md          the SKY and POSTS blocks between the markers
+  sky.json           the same sky as data, read by the personal site (zehrabetulcuhadar.github.io)
+
+meta.json v2 (one per post folder, see posts/_template/meta.json):
+  status   "draft" or "published". Drafts are invisible everywhere.
+  date     YYYY-MM-DD. A published post with a future date appears on that day
+           (the daily scheduled run picks it up).
+  title, slug, summary   {"tr": "...", "en": "..."}; slug = lowercase a-z, 0-9 and "-".
+  topic    one of the ids in planets.json.  series + seriesOrder optional.  tags optional.
 
 Standard library only. Run:  python build_sky.py
 """
 import json, math, random, re
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -21,21 +30,58 @@ names = {p["id"]: p["name"] for p in planets}
 n = len(planets)
 
 # ---- read posts -----------------------------------------------------------
-posts = []
+TODAY = datetime.now(timezone(timedelta(hours=3))).date().isoformat()  # Istanbul
+SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+
+def tr_en(m, key, where):
+    """v2 fields are {"tr", "en"}; a plain string (old v1 meta) is used for both languages."""
+    v = m.get(key)
+    if isinstance(v, str):
+        v = {"tr": v, "en": v}
+    if not isinstance(v, dict) or not v.get("tr") or not v.get("en"):
+        raise SystemExit(f'{where}: "{key}" needs both "tr" and "en", e.g. "{key}": {{"tr": "...", "en": "..."}}')
+    return {"tr": v["tr"].strip(), "en": v["en"].strip()}
+
+posts, skipped = [], 0
 for d in sorted((ROOT / "posts").iterdir()):
     mf = d / "meta.json"
     if not d.is_dir() or d.name.startswith("_") or not mf.exists():
         continue
     m = json.loads(mf.read_text(encoding="utf-8"))
+    status = m.get("status", "published")  # v1 meta had no status: treat as published
+    if status not in ("draft", "published"):
+        raise SystemExit(f'{d.name}: "status" must be "draft" or "published", not "{status}"')
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(m.get("date", ""))):
+        if status == "draft":
+            skipped += 1
+            continue
+        raise SystemExit(f'{d.name}: "date" must look like 2026-11-20')
+    if status == "draft" or m["date"] > TODAY:
+        skipped += 1
+        continue
     if m.get("topic") not in planet_ids:
         raise SystemExit(f"{d.name}: unknown topic '{m.get('topic')}'. Use one of: {sorted(planet_ids)}")
+    m["title"] = tr_en(m, "title", d.name)
+    m["summary"] = tr_en(m, "summary", d.name)
+    m["slug"] = tr_en(m, "slug", d.name)
+    for lang, sl in m["slug"].items():
+        if not SLUG.match(sl):
+            raise SystemExit(f'{d.name}: slug.{lang} "{sl}" may only use a-z, 0-9 and "-" (no Turkish letters, no spaces)')
     m["dir"] = d.name
     posts.append(m)
 posts.sort(key=lambda p: p["date"])
+for lang in ("tr", "en"):
+    seen = {}
+    for p in posts:
+        sl = p["slug"][lang]
+        if sl in seen:
+            raise SystemExit(f'slug.{lang} "{sl}" is used by both {seen[sl]} and {p["dir"]}')
+        seen[sl] = p["dir"]
 
 # ---- scene ----------------------------------------------------------------
 W, H = 900, 420
 TW = W / n                      # tile width
+SC = min(1.0, 6 / n)            # planets and orbits shrink when there are more than 6 tiles
 rnd = random.Random(11)
 
 def scene():
@@ -56,7 +102,7 @@ def scene():
     a('.ring{transform-box:fill-box;transform-origin:center;animation:rg 2.2s ease-out infinite}')
     a('.pl{animation:fl 7s ease-in-out infinite}')
     a('.ss{animation:shoot 10s linear infinite;opacity:0}')
-    a('.lbl{font:500 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c7d2fe;text-anchor:middle}')
+    a(f'.lbl{{font:500 {13 if n <= 6 else 11}px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c7d2fe;text-anchor:middle}}')
     a('.ttl{font:700 20px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#f5f3ff}')
     a('.sub{font:500 13px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#a5b4fc}')
     a('@keyframes tw{0%,100%{opacity:.25}50%{opacity:.9}}')
@@ -74,7 +120,7 @@ def scene():
 
     pos = {}
     for i, p in enumerate(planets):
-        pos[p["id"]] = ((i + .5) * TW, 215 + 45 * math.sin(i * 1.3), 24 + (i * 7) % 10)
+        pos[p["id"]] = ((i + .5) * TW, 215 + 45 * math.sin(i * 1.3), round((24 + (i * 7) % 10) * SC, 1))
 
     def planet_svg(style, x, y, r, c, pid):
         P = []
@@ -117,15 +163,15 @@ def scene():
         slots = (60, 20, -25, 110, 150, 190, -150)   # degrees; the bottom is kept free for the label
         for k, s in enumerate(lst):
             ang = math.radians(slots[k % len(slots)])
-            rx, ry = r + 34 + (k // len(slots)) * 14, r + 22 + (k // len(slots)) * 10
+            rx, ry = r + 34 * SC + (k // len(slots)) * 14 * SC, r + 22 * SC + (k // len(slots)) * 10 * SC
             spos[s["dir"]] = (x + rx * math.cos(ang), y - ry * math.sin(ang) - 6)
 
     for p in planets:
         x, y, r = pos[p["id"]]
         a(f'<g class="pl" style="animation-delay:{(x%7)*.3:.1f}s">')
-        a(f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="{r+34}" ry="{r+22}" fill="none" stroke="{p["color"]}" stroke-opacity=".22" stroke-dasharray="2 6"/>')
+        a(f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="{r+34*SC:.1f}" ry="{r+22*SC:.1f}" fill="none" stroke="{p["color"]}" stroke-opacity=".22" stroke-dasharray="2 6"/>')
         a(planet_svg(p.get("style", "plain"), x, y, r, p["color"], p["id"]))
-        a(f'<text class="lbl" x="{x:.1f}" y="{y + r + 46:.1f}">{escape(p.get("label", p["name"]))}</text>')
+        a(f'<text class="lbl" x="{x:.1f}" y="{y + r + 46 * SC + 8:.1f}">{escape(p.get("label", p["name"]))}</text>')
         a('</g>')
 
     series = {}
@@ -133,6 +179,7 @@ def scene():
         if s.get("series"):
             series.setdefault(s["series"], []).append(s)
     for lst in series.values():
+        lst.sort(key=lambda s: (s.get("seriesOrder", 0), s["date"]))
         if len(lst) > 1:
             pts = " ".join(f'{spos[s["dir"]][0]:.1f},{spos[s["dir"]][1]:.1f}' for s in lst)
             a(f'<polyline points="{pts}" fill="none" stroke="#fde68a" stroke-opacity=".45" stroke-width="1" stroke-dasharray="2 4"/>')
@@ -153,10 +200,11 @@ def scene():
     return o
 
 body = scene()
-desc = f'{len(posts)} stars across {n} topic planets. Each weekly post adds a star.'
+desc = f'{len(posts)} stars across {n} topic planets. Each post adds a star.'
 
 # full sky (one picture, with title)
-sub = f'{len(posts)} stars · {n} planets · every weekly post adds a new star' if posts else 'The first star is on its way ✦'
+sub = (f'{len(posts)} star{"s" if len(posts) != 1 else ""} · {n} planets · every post adds a new star' if posts
+       else 'The first star is on its way ✦')
 full = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Learning sky">',
         f'<title>Learning sky</title><desc>{desc}</desc>',
         '<clipPath id="all"><rect width="900" height="420" rx="18"/></clipPath><g clip-path="url(#all)">'] + body + [
@@ -183,6 +231,9 @@ for i, p in enumerate(planets):
 
 # topic pages
 (ROOT / "topics").mkdir(exist_ok=True)
+for old in (ROOT / "topics").glob("*.md"):
+    if old.stem not in planet_ids:
+        old.unlink()  # planet removed from planets.json
 for p in planets:
     mine = sorted([s for s in posts if s["topic"] == p["id"]], key=lambda s: s["date"], reverse=True)
     L = [f'# {p.get("label", p["name"])}', '', f'**{p["name"]}** planet: every post about this topic is a star here. [← Back to the sky](../README.md)', '']
@@ -190,7 +241,7 @@ for p in planets:
         L += ['| Date | Title | Read |', '| :-- | :-- | :-- |']
         for s in mine:
             dd = f'../posts/{s["dir"]}'
-            L.append(f'| {s["date"]} | {s["title"]} | [🇬🇧 EN]({dd}/README.en.md) · [🇹🇷 TR]({dd}/README.tr.md) |')
+            L.append(f'| {s["date"]} | {s["title"]["en"]} | [🇬🇧 EN]({dd}/README.en.md) · [🇹🇷 TR]({dd}/README.tr.md) |')
     else:
         L.append('No stars here yet ✦ The first post on this topic is coming soon.')
     (ROOT / "topics" / f'{p["id"]}.md').write_text("\n".join(L) + "\n", encoding="utf-8")
@@ -210,7 +261,7 @@ absb = tiles_block(f"https://raw.githubusercontent.com/{OWNER}/{REPO}/main/", f"
 rows = ["| Date | Topic | Title | Read |", "| :-- | :-- | :-- | :-- |"]
 for s in sorted(posts, key=lambda p: p["date"], reverse=True):
     d = f'posts/{s["dir"]}'
-    rows.append(f'| {s["date"]} | {names[s["topic"]]} | {s["title"]} | [🇬🇧 EN]({d}/README.en.md) · [🇹🇷 TR]({d}/README.tr.md) |')
+    rows.append(f'| {s["date"]} | {names[s["topic"]]} | {s["title"]["en"]} | [🇬🇧 EN]({d}/README.en.md) · [🇹🇷 TR]({d}/README.tr.md) |')
 if not posts:
     rows.append("| – | – | The first post is coming soon ✦ | – |")
 text = (ROOT / "README.md").read_text(encoding="utf-8")
@@ -222,4 +273,22 @@ def fill(t, name, content):
 text = fill(text, "SKY", rel + "\n\n<div align=\"center\">\n\n" + caption + "\n\n</div>")
 text = fill(text, "POSTS", "\n".join(rows))
 (ROOT / "README.md").write_text(text, encoding="utf-8")
-print(f"ok: {len(posts)} post(s), {n} planets, {n} tiles")
+# sky.json: the same sky as data, for the personal site
+counts = {p["id"]: 0 for p in planets}
+for s in posts:
+    counts[s["topic"]] += 1
+sky = {
+    "version": 2,
+    "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    "planets": [{"id": p["id"], "name": p["name"], "color": p["color"], "style": p.get("style", "plain"), "count": counts[p["id"]]} for p in planets],
+    "posts": [
+        {
+            "id": s["dir"], "date": s["date"], "topic": s["topic"],
+            "series": s.get("series") or None, "seriesOrder": s.get("seriesOrder"),
+            "title": s["title"], "slug": s["slug"], "summary": s["summary"], "tags": s.get("tags", []),
+        }
+        for s in posts
+    ],
+}
+(ROOT / "sky.json").write_text(json.dumps(sky, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(f"ok: {len(posts)} published post(s), {skipped} draft/scheduled skipped, {n} planets, {n} tiles")

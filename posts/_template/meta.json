@@ -1,7 +1,20 @@
 {
-  "title": "Your post title",
-  "topic": "architecture",
+  "status": "draft",
   "date": "YYYY-MM-DD",
+  "topic": "basics",
   "series": "",
-  "summary": "One sentence about what you learned."
+  "seriesOrder": 1,
+  "title": {
+    "tr": "Yazının Türkçe başlığı",
+    "en": "The English title of the post"
+  },
+  "slug": {
+    "tr": "turkce-adres-parcasi",
+    "en": "english-url-part"
+  },
+  "summary": {
+    "tr": "Ne öğrendiğimi anlatan tek cümle.",
+    "en": "One sentence about what I learned."
+  },
+  "tags": []
 }

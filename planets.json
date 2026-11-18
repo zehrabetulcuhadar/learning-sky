@@ -1,8 +1,11 @@
 [
-  {"id": "dotnet",       "name": ".NET",          "label": "~/dotnet",        "color": "#a78bfa", "style": "ring"},
-  {"id": "angular",      "name": "Angular",       "label": "~/angular",       "color": "#f87171", "style": "bands"},
-  {"id": "typescript",   "name": "TypeScript",    "label": "~/typescript",    "color": "#38bdf8", "style": "moon"},
-  {"id": "architecture", "name": "Architecture",  "label": "~/architecture",  "color": "#34d399", "style": "wire"},
-  {"id": "systemdesign", "name": "System Design", "label": "~/system-design", "color": "#f472b6", "style": "ring"},
-  {"id": "english",      "name": "English",       "label": "~/english",       "color": "#fb923c", "style": "craters"}
+  {"id": "basics",       "name": "Basics",       "label": "~/basics",       "color": "#F7C548", "style": "bands"},
+  {"id": "backend",      "name": "Backend",      "label": "~/backend",      "color": "#F2766B", "style": "craters"},
+  {"id": "frontend",     "name": "Frontend",     "label": "~/frontend",     "color": "#F28AC0", "style": "moon"},
+  {"id": "data",         "name": "Data",         "label": "~/data",         "color": "#4FC7B8", "style": "wire"},
+  {"id": "quality",      "name": "Quality",      "label": "~/quality",      "color": "#8FD694", "style": "bands"},
+  {"id": "architecture", "name": "Architecture", "label": "~/architecture", "color": "#7C8CF2", "style": "ring"},
+  {"id": "ai",           "name": "AI",           "label": "~/ai",           "color": "#B79BF5", "style": "ring"},
+  {"id": "english",      "name": "English",      "label": "~/english",      "color": "#F9A65A", "style": "craters"},
+  {"id": "news",         "name": "News",         "label": "~/news",         "color": "#6CC5EE", "style": "moon"}
 ]
