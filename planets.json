@@ -1,11 +1,11 @@
 [
   {"id": "basics",       "name": "Basics",       "label": "~/basics",       "color": "#F7C548", "style": "bands"},
-  {"id": "backend",      "name": "Backend",      "label": "~/backend",      "color": "#F2766B", "style": "craters"},
-  {"id": "frontend",     "name": "Frontend",     "label": "~/frontend",     "color": "#F28AC0", "style": "moon"},
+  {"id": "backend",      "name": "Backend",      "label": "~/backend",      "color": "#F2766B", "style": "craters", "short": "back"},
+  {"id": "frontend",     "name": "Frontend",     "label": "~/frontend",     "color": "#F28AC0", "style": "moon", "short": "front"},
   {"id": "data",         "name": "Data",         "label": "~/data",         "color": "#4FC7B8", "style": "wire"},
-  {"id": "quality",      "name": "Quality",      "label": "~/quality",      "color": "#8FD694", "style": "bands"},
-  {"id": "architecture", "name": "Architecture", "label": "~/architecture", "color": "#7C8CF2", "style": "ring"},
+  {"id": "quality",      "name": "Quality",      "label": "~/quality",      "color": "#8FD694", "style": "bands", "short": "qual"},
+  {"id": "architecture", "name": "Architecture", "label": "~/architecture", "color": "#7C8CF2", "style": "ring", "short": "arch"},
   {"id": "ai",           "name": "AI",           "label": "~/ai",           "color": "#B79BF5", "style": "ring"},
-  {"id": "english",      "name": "English",      "label": "~/english",      "color": "#F9A65A", "style": "craters"},
+  {"id": "english",      "name": "English",      "label": "~/english",      "color": "#F9A65A", "style": "craters", "short": "eng"},
   {"id": "news",         "name": "News",         "label": "~/news",         "color": "#6CC5EE", "style": "moon"}
 ]

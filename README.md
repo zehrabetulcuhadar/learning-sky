@@ -48,6 +48,7 @@ Generated files, never edit by hand: `sky*.svg`, `topics/*.md`, `sky-embed.md`, 
 ## 🪐 Planets (topics)
 
 Planets are defined in `planets.json`. Add a new object there to add a new topic.
+Optional `"short"` is the short name under the planet on the star counter card (`sky-stats.svg`).
 
 ## 🧱 Post structure
 

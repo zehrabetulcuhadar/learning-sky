@@ -4,7 +4,8 @@ Outputs (all regenerated, do not edit by hand):
   sky.svg            full sky (one picture)
   sky-0.svg ...      one clickable tile per planet (GitHub cannot click inside an SVG)
   topics/<id>.md     one page per planet listing its posts
-  sky-embed.md       tile block with absolute URLs, for the profile README
+  sky-stats.svg      star counter card (stars, stars forming, next star, milestone)
+  sky-embed.md       tile block + counter with absolute URLs, for the profile README
   README.md          the SKY and POSTS blocks between the markers
   sky.json           the same sky as data, read by the personal site (zehrabetulcuhadar.github.io)
 
@@ -17,7 +18,7 @@ meta.json v2 (one per post folder, see posts/_template/meta.json):
 
 Standard library only. Run:  python build_sky.py
 """
-import json, math, random, re
+import hashlib, json, math, random, re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -43,6 +44,7 @@ def tr_en(m, key, where):
     return {"tr": v["tr"].strip(), "en": v["en"].strip()}
 
 posts, skipped = [], 0
+drafts, scheduled = 0, []   # for the counter card: "stars forming" and "next star"
 for d in sorted((ROOT / "posts").iterdir()):
     mf = d / "meta.json"
     if not d.is_dir() or d.name.startswith("_") or not mf.exists():
@@ -54,10 +56,15 @@ for d in sorted((ROOT / "posts").iterdir()):
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(m.get("date", ""))):
         if status == "draft":
             skipped += 1
+            drafts += 1
             continue
         raise SystemExit(f'{d.name}: "date" must look like 2026-11-20')
     if status == "draft" or m["date"] > TODAY:
         skipped += 1
+        if status == "draft":
+            drafts += 1
+        else:
+            scheduled.append(m["date"])
         continue
     if m.get("topic") not in planet_ids:
         raise SystemExit(f"{d.name}: unknown topic '{m.get('topic')}'. Use one of: {sorted(planet_ids)}")
@@ -246,16 +253,93 @@ for p in planets:
         L.append('No stars here yet ✦ The first post on this topic is coming soon.')
     (ROOT / "topics" / f'{p["id"]}.md').write_text("\n".join(L) + "\n", encoding="utf-8")
 
+# star counter card (sky-stats.svg): how many stars, how many are forming, when the next one rises
+def nice_date(iso):
+    return datetime.strptime(iso, "%Y-%m-%d").strftime("%d %b %Y").lstrip("0")
+
+def stats_svg():
+    SW, SH, GOAL = 900, 170, 2           # GOAL: the first milestone is 2 stars on every planet
+    cnt = {p["id"]: 0 for p in planets}
+    for s in posts:
+        cnt[s["topic"]] += 1
+    total = len(posts)
+    reached = sum(min(c, GOAL) for c in cnt.values())
+    goal_total = GOAL * n
+    lit = sum(1 for c in cnt.values() if c > 0)
+    nxt = nice_date(min(scheduled)) if scheduled else "soon ✦"
+    last = nice_date(posts[-1]["date"]) if posts else "not yet"
+    sans = "-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
+    mono = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+    o = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {SW} {SH}" width="{SW}" height="{SH}" role="img" aria-label="Learning sky: {total} stars">',
+         f'<title>Learning sky counter</title><desc>{total} published posts, {drafts} drafts, {len(scheduled)} scheduled, across {n} planets.</desc>',
+         '<defs><linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b1f"/><stop offset=".55" stop-color="#14103a"/><stop offset="1" stop-color="#241552"/></linearGradient>',
+         '<radialGradient id="sgold" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fcd34d"/></radialGradient>',
+         '<linearGradient id="sbar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fcd34d"/><stop offset="1" stop-color="#f28ac0"/></linearGradient></defs>',
+         '<style>',
+         f'.big{{font:800 56px {sans};fill:#fde68a}} .k{{font:600 11px {mono};fill:#a5b4fc;letter-spacing:.12em}}',
+         f'.v{{font:600 15px {sans};fill:#f5f3ff}} .m{{font:500 12px {sans};fill:#c7d2fe}} .pl{{font:500 10px {mono};fill:#c7d2fe;text-anchor:middle}}',
+         f'.pc{{font:700 12px {sans};fill:#fff;text-anchor:middle}}',
+         '.tw{transform-box:fill-box;transform-origin:center;animation:tw 3.4s ease-in-out infinite}',
+         '.dim{opacity:.45}',
+         '@keyframes tw{0%,100%{opacity:.6;transform:scale(.85) rotate(0)}50%{opacity:1;transform:scale(1.12) rotate(45deg)}}',
+         '@media (prefers-reduced-motion:reduce){.tw{animation:none}}',
+         '</style>',
+         f'<rect width="{SW}" height="{SH}" rx="18" fill="url(#sbg)"/>']
+    r2 = random.Random(5)
+    for _ in range(26):
+        o.append(f'<circle cx="{r2.uniform(8, SW-8):.1f}" cy="{r2.uniform(8, SH-8):.1f}" r="{r2.choice([.7, 1, 1.3])}" fill="#e0e7ff" opacity="{r2.uniform(.2, .6):.2f}"/>')
+    # left: the big number
+    o.append('<g transform="translate(46 62)"><path class="tw" d="M0 -16 Q0 0 16 0 Q0 0 0 16 Q0 0 -16 0 Q0 0 0 -16Z" fill="url(#sgold)"/></g>')
+    o.append(f'<text class="big" x="72" y="84">{total}</text>')
+    o.append(f'<text class="k" x="30" y="114">{"STAR" if total == 1 else "STARS"} IN THE SKY</text>')
+    o.append(f'<text class="m" x="30" y="138">✧ {drafts} forming · {len(scheduled)} on the way</text>')
+    # middle: one dot per planet, its stars stacked above it
+    x0, x1 = 280, 620
+    step = (x1 - x0) / max(n - 1, 1)
+    for i, p in enumerate(planets):
+        x, c = x0 + i * step, cnt[p["id"]]
+        dim = "" if c else ' class="dim"'
+        o.append(f'<g{dim}><circle cx="{x:.1f}" cy="104" r="11" fill="{p["color"]}"/>'
+                 f'<clipPath id="sc{i}"><circle cx="{x:.1f}" cy="104" r="11"/></clipPath>'
+                 f'<circle cx="{x+5:.1f}" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc{i})"/></g>')
+        o.append(f'<text class="pc" x="{x:.1f}" y="108">{c}</text>')
+        for k in range(min(c, 4)):
+            y = 80 - k * 12
+            o.append(f'<path d="M{x:.1f} {y-5} Q{x:.1f} {y} {x+5:.1f} {y} Q{x:.1f} {y} {x:.1f} {y+5} Q{x:.1f} {y} {x-5:.1f} {y} Q{x:.1f} {y} {x:.1f} {y-5}Z" fill="url(#sgold)"/>')
+        if c > 4:
+            o.append(f'<text class="pl" x="{x:.1f}" y="34">+{c-4}</text>')
+        o.append(f'<text class="pl" x="{x:.1f}" y="134">{escape(p.get("short", p["id"][:6]))}</text>')
+    o.append(f'<text class="k" x="{x0-10}" y="34">{lit}/{n} PLANETS LIT</text>')
+    # right: next star, last star, first milestone
+    rx = 660
+    o.append(f'<text class="k" x="{rx}" y="36">NEXT STAR</text><text class="v" x="{rx}" y="56">{escape(nxt)}</text>')
+    o.append(f'<text class="k" x="{rx+124}" y="36">LAST STAR</text><text class="v" x="{rx+124}" y="56">{escape(last)}</text>')
+    o.append(f'<text class="k" x="{rx}" y="96">MILESTONE · {GOAL} ON EVERY PLANET</text>')
+    bw = 210
+    o.append(f'<rect x="{rx}" y="106" width="{bw}" height="10" rx="5" fill="#ffffff" fill-opacity=".12"/>')
+    if reached:
+        o.append(f'<rect x="{rx}" y="106" width="{max(10, bw * reached / goal_total):.1f}" height="10" rx="5" fill="url(#sbar)"/>')
+    o.append(f'<text class="m" x="{rx}" y="138">{reached} / {goal_total} stars</text>')
+    o.append('</svg>')
+    return "\n".join(o)
+
+stats = stats_svg()
+(ROOT / "sky-stats.svg").write_text(stats, encoding="utf-8")
+# Version stamp for the profile README image URLs. GitHub caches images (camo); a new ?v= on every
+# real change makes the profile show the new sky at once. It only changes when the pictures change.
+VER = hashlib.sha1(("\n".join(body) + stats).encode("utf-8")).hexdigest()[:8]
+
 # tile blocks (relative for this repo, absolute for the profile README)
-def tiles_block(base_img, base_link):
+def tiles_block(base_img, base_link, q=""):
     w = f"{math.floor(1000 / n) / 10:.1f}%"
-    imgs = "".join(f'<a href="{base_link}topics/{p["id"]}.md"><img src="{base_img}sky-{i}.svg" width="{w}" alt="{escape(p.get("label", p["name"]))}"></a>' for i, p in enumerate(planets))
+    imgs = "".join(f'<a href="{base_link}topics/{p["id"]}.md"><img src="{base_img}sky-{i}.svg{q}" width="{w}" alt="{escape(p.get("label", p["name"]))}"></a>' for i, p in enumerate(planets))
     return f'<div align="center">\n\n<p>{imgs}</p>\n\n</div>'
-caption = (f'✦ **{len(posts)} star{"s" if len(posts)!=1 else ""}** · {n} planets. Click a planet to see its posts.' if posts
-           else f'✦ The first star is on its way · {n} planets. Click a planet to see its posts.')
+def counter_block(base_img, link, q=""):
+    return f'<div align="center">\n\n<a href="{link}"><img src="{base_img}sky-stats.svg{q}" width="100%" alt="{len(posts)} stars in the learning sky"></a>\n\n</div>'
+RAW = f"https://raw.githubusercontent.com/{OWNER}/{REPO}/main/"
 rel = tiles_block("", "")
-absb = tiles_block(f"https://raw.githubusercontent.com/{OWNER}/{REPO}/main/", f"https://github.com/{OWNER}/{REPO}/blob/main/")
-(ROOT / "sky-embed.md").write_text(absb + "\n", encoding="utf-8")
+absb = tiles_block(RAW, f"https://github.com/{OWNER}/{REPO}/blob/main/", f"?v={VER}")
+(ROOT / "sky-embed.md").write_text(absb + "\n\n" + counter_block(RAW, f"https://github.com/{OWNER}/{REPO}#-posts", f"?v={VER}") + "\n", encoding="utf-8")
 
 # README blocks
 rows = ["| Date | Topic | Title | Read |", "| :-- | :-- | :-- | :-- |"]
@@ -270,7 +354,7 @@ def fill(t, name, content):
     if not re.search(pat, t, flags=re.S):
         raise SystemExit(f"README.md is missing the <!-- {name}:START --> / <!-- {name}:END --> markers")
     return re.sub(pat, lambda m: f"{m.group(1)}\n{content}\n{m.group(2)}", t, flags=re.S)
-text = fill(text, "SKY", rel + "\n\n<div align=\"center\">\n\n" + caption + "\n\n</div>")
+text = fill(text, "SKY", rel + "\n\n" + counter_block("", "#-posts"))
 text = fill(text, "POSTS", "\n".join(rows))
 (ROOT / "README.md").write_text(text, encoding="utf-8")
 # sky.json: the same sky as data, for the personal site
