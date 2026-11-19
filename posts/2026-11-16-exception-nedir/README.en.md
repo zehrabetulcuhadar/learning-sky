@@ -61,3 +61,7 @@ _Sources I used for this post. Links last accessed on 18 November 2026._
 - MDN Web Docs, "try...catch" and "Error: cause". https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/cause
 - Angular Docs, "ErrorHandler". https://angular.dev/api/core/ErrorHandler
 - Krzysztof Cwalina, Brad Abrams. *Framework Design Guidelines*, Addison-Wesley (chapter on exceptions).
+
+---
+
+© 2026 Zehra Betül Çuhadar. The text and figures of this post are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): you may share them with credit and a link, for non-commercial purposes and without changes. The code examples are all rights reserved, see [LICENSE-CODE](../../LICENSE-CODE).

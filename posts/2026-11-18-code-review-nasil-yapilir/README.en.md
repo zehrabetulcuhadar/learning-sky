@@ -55,3 +55,7 @@ _Sources I used for this post. Links last accessed on 18 November 2026._
 - SmartBear, "Best Practices for Code Review" (the Cisco study). https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 - Alberto Bacchelli, Christian Bird. "Expectations, Outcomes, and Challenges of Modern Code Review", ICSE 2013.
 - GitHub Docs, "Creating a pull request template for your repository". https://docs.github.com/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
+
+---
+
+© 2026 Zehra Betül Çuhadar. The text and figures of this post are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): you may share them with credit and a link, for non-commercial purposes and without changes. The code examples are all rights reserved, see [LICENSE-CODE](../../LICENSE-CODE).

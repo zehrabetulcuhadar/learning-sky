@@ -65,3 +65,7 @@ _Sources I used for this post. Links last accessed on 18 November 2026._
 - Martin Fowler. "Software Architecture Guide". https://martinfowler.com/architecture/
 - Grady Booch's definition of architecture, quoted in Fowler's guide and in "Who Needs an Architect?". https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf
 - Fred Brooks. "No Silver Bullet" (1986), essential vs accidental complexity.
+
+---
+
+© 2026 Zehra Betül Çuhadar. The text and figures of this post are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): you may share them with credit and a link, for non-commercial purposes and without changes. The code examples are all rights reserved, see [LICENSE-CODE](../../LICENSE-CODE).

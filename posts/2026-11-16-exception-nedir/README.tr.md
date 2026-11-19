@@ -61,3 +61,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - MDN Web Docs, "try...catch" ve "Error: cause". https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/cause
 - Angular Docs, "ErrorHandler". https://angular.dev/api/core/ErrorHandler
 - Krzysztof Cwalina, Brad Abrams. *Framework Design Guidelines*, Addison-Wesley (exception bölümü).
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

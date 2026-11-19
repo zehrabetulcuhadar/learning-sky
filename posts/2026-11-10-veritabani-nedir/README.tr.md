@@ -56,3 +56,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - PostgreSQL Documentation, "Constraints" (birincil ve yabancı anahtar). https://www.postgresql.org/docs/current/ddl-constraints.html
 - SQLite Documentation, "SQLite Foreign Key Support". https://www.sqlite.org/foreignkeys.html
 - Martin Kleppmann. *Designing Data-Intensive Applications*, O'Reilly, Bölüm 2 (veri modelleri).
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

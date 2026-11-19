@@ -55,3 +55,7 @@ _Sources I used for this post. Links last accessed on 18 November 2026._
 - OWASP, "Secrets Management Cheat Sheet". https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
 - Microsoft Learn, "Safe storage of app secrets in development in ASP.NET Core". https://learn.microsoft.com/aspnet/core/security/app-secrets
 - Your AI provider's current privacy and data usage policy (date note: written in November 2026; policies change).
+
+---
+
+© 2026 Zehra Betül Çuhadar. The text and figures of this post are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): you may share them with credit and a link, for non-commercial purposes and without changes. The code examples are all rights reserved, see [LICENSE-CODE](../../LICENSE-CODE).

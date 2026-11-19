@@ -68,3 +68,7 @@ _Sources I used for this post. Links last accessed on 18 November 2026._
 - Conventional Commits 1.0.0. https://www.conventionalcommits.org/
 - Pro Git, "Contributing to a Project: Commit Guidelines". https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project
 - Tim Pope. "A Note About Git Commit Messages" (2008).
+
+---
+
+© 2026 Zehra Betül Çuhadar. The text and figures of this post are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): you may share them with credit and a link, for non-commercial purposes and without changes. The code examples are all rights reserved, see [LICENSE-CODE](../../LICENSE-CODE).

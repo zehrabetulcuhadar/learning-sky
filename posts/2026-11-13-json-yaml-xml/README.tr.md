@@ -75,3 +75,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - W3C, Extensible Markup Language (XML) 1.0. https://www.w3.org/TR/xml/
 - "The Norway Problem" (YAML 1.1 boolean sorunu üzerine yaygın yazılar), örneğin https://hitchdev.com/strictyaml/why/implicit-typing-removed/
 - OWASP, "XML External Entity Prevention Cheat Sheet". https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

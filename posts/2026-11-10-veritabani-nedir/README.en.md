@@ -56,3 +56,7 @@ _Sources I used for this post. Links last accessed on 18 November 2026._
 - PostgreSQL Documentation, "Constraints" (primary and foreign keys). https://www.postgresql.org/docs/current/ddl-constraints.html
 - SQLite Documentation, "SQLite Foreign Key Support". https://www.sqlite.org/foreignkeys.html
 - Martin Kleppmann. *Designing Data-Intensive Applications*, O'Reilly, Chapter 2 (data models).
+
+---
+
+© 2026 Zehra Betül Çuhadar. The text and figures of this post are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): you may share them with credit and a link, for non-commercial purposes and without changes. The code examples are all rights reserved, see [LICENSE-CODE](../../LICENSE-CODE).

@@ -15,7 +15,7 @@
 
 <div align="center">
 
-<a href="#-posts"><img src="sky-stats.svg" width="100%" alt="0 stars in the learning sky"></a>
+<a href="#-posts"><img src="sky-stats.svg" width="100%" alt="18 stars in the learning sky"></a>
 
 </div>
 <!-- SKY:END -->
@@ -29,7 +29,24 @@ Posts are drafted with AI assistance and reviewed by me.
 <!-- POSTS:START -->
 | Date | Topic | Title | Read |
 | :-- | :-- | :-- | :-- |
-| – | – | The first post is coming soon ✦ | – |
+| 2026-11-18 | Quality | How do you do a code review? What to look at, and in what order? | [🇬🇧 EN](posts/2026-11-18-code-review-nasil-yapilir/README.en.md) · [🇹🇷 TR](posts/2026-11-18-code-review-nasil-yapilir/README.tr.md) |
+| 2026-11-18 | AI | How is AI changing a software developer's job? | [🇬🇧 EN](posts/2026-11-18-yapay-zeka-yazilimciyi-nasil-degistiriyor/README.en.md) · [🇹🇷 TR](posts/2026-11-18-yapay-zeka-yazilimciyi-nasil-degistiriyor/README.tr.md) |
+| 2026-11-17 | Frontend | What is CORS? Why did the browser block my request? | [🇬🇧 EN](posts/2026-11-17-cors-nedir/README.en.md) · [🇹🇷 TR](posts/2026-11-17-cors-nedir/README.tr.md) |
+| 2026-11-17 | Backend | What is idempotency? What happens if the same request arrives twice? | [🇬🇧 EN](posts/2026-11-17-idempotency-nedir/README.en.md) · [🇹🇷 TR](posts/2026-11-17-idempotency-nedir/README.tr.md) |
+| 2026-11-16 | News | What did we learn from the big outages? CrowdStrike, AWS and Cloudflare | [🇬🇧 EN](posts/2026-11-16-buyuk-kesintilerden-dersler/README.en.md) · [🇹🇷 TR](posts/2026-11-16-buyuk-kesintilerden-dersler/README.tr.md) |
+| 2026-11-16 | Basics | What is an exception? How should errors be handled? | [🇬🇧 EN](posts/2026-11-16-exception-nedir/README.en.md) · [🇹🇷 TR](posts/2026-11-16-exception-nedir/README.tr.md) |
+| 2026-11-15 | News | How do you keep up with the software industry? My weekly reading routine | [🇬🇧 EN](posts/2026-11-15-sektor-nasil-takip-edilir/README.en.md) · [🇹🇷 TR](posts/2026-11-15-sektor-nasil-takip-edilir/README.tr.md) |
+| 2026-11-15 | AI | What data should you never share with AI? Privacy, KVKK and company rules | [🇬🇧 EN](posts/2026-11-15-yapay-zekaya-hangi-veri-verilmez/README.en.md) · [🇹🇷 TR](posts/2026-11-15-yapay-zekaya-hangi-veri-verilmez/README.tr.md) |
+| 2026-11-14 | Frontend | How does CSS work? The cascade, specificity, Flexbox and Grid | [🇬🇧 EN](posts/2026-11-14-css-nasil-calisir/README.en.md) · [🇹🇷 TR](posts/2026-11-14-css-nasil-calisir/README.tr.md) |
+| 2026-11-14 | Quality | Why write tests? What is the test pyramid? | [🇬🇧 EN](posts/2026-11-14-test-piramidi/README.en.md) · [🇹🇷 TR](posts/2026-11-14-test-piramidi/README.tr.md) |
+| 2026-11-13 | Backend | What is the client-server model? How are frontend and backend split? | [🇬🇧 EN](posts/2026-11-13-istemci-sunucu-modeli/README.en.md) · [🇹🇷 TR](posts/2026-11-13-istemci-sunucu-modeli/README.tr.md) |
+| 2026-11-13 | Basics | What are JSON, YAML and XML? When to use which? | [🇬🇧 EN](posts/2026-11-13-json-yaml-xml/README.en.md) · [🇹🇷 TR](posts/2026-11-13-json-yaml-xml/README.tr.md) |
+| 2026-11-12 | Architecture | How do you write an Architecture Decision Record (ADR)? | [🇬🇧 EN](posts/2026-11-12-adr-nasil-yazilir/README.en.md) · [🇹🇷 TR](posts/2026-11-12-adr-nasil-yazilir/README.tr.md) |
+| 2026-11-12 | English | How do you write code review comments in English? Polite and clear patterns | [🇬🇧 EN](posts/2026-11-12-ingilizce-code-review-yorumlari/README.en.md) · [🇹🇷 TR](posts/2026-11-12-ingilizce-code-review-yorumlari/README.tr.md) |
+| 2026-11-11 | Data | How does a database index work? When does it hurt? | [🇬🇧 EN](posts/2026-11-11-indeks-nasil-calisir/README.en.md) · [🇹🇷 TR](posts/2026-11-11-indeks-nasil-calisir/README.tr.md) |
+| 2026-11-11 | English | How do you write a good commit message in English? | [🇬🇧 EN](posts/2026-11-11-ingilizce-commit-mesaji/README.en.md) · [🇹🇷 TR](posts/2026-11-11-ingilizce-commit-mesaji/README.tr.md) |
+| 2026-11-10 | Data | What is a database? The relational model, tables and keys | [🇬🇧 EN](posts/2026-11-10-veritabani-nedir/README.en.md) · [🇹🇷 TR](posts/2026-11-10-veritabani-nedir/README.tr.md) |
+| 2026-11-10 | Architecture | What is software architecture? Thinking in trade-offs | [🇬🇧 EN](posts/2026-11-10-yazilim-mimarisi/README.en.md) · [🇹🇷 TR](posts/2026-11-10-yazilim-mimarisi/README.tr.md) |
 <!-- POSTS:END -->
 
 ## ✍️ Adding a new post (new star)
@@ -55,4 +72,18 @@ Optional `"short"` is the short name under the planet on the star counter card (
 1. What I researched this week and why
 2. Three key takeaways
 3. What I got wrong or still find unclear
-4. Sources
+4. Example
+5. References
+
+## ⚖️ License
+
+© 2026 Zehra Betül Çuhadar.
+
+- **Posts, texts and figures** (Turkish and English post texts, figures, images and the generated sky images) are licensed under
+  [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/), see [`LICENSE`](LICENSE).
+  You may share them unchanged, with credit and a link to the original, for non-commercial purposes only.
+  For anything the license does not allow (commercial use, edited versions, translations), ask me for written permission first.
+- **Code** (`build_sky.py`, `.github/workflows/`, every `posts/*/example/` folder and code in the posts) is **all rights reserved**,
+  see [`LICENSE-CODE`](LICENSE-CODE). It is published so you can read it, not to reuse it.
+
+For permission requests, reach me via [github.com/zehrabetulcuhadar](https://github.com/zehrabetulcuhadar).

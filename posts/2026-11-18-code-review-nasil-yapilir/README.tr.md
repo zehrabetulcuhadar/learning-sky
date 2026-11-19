@@ -55,3 +55,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - SmartBear, "Best Practices for Code Review" (Cisco çalışması). https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/
 - Alberto Bacchelli, Christian Bird. "Expectations, Outcomes, and Challenges of Modern Code Review", ICSE 2013.
 - GitHub Docs, "Creating a pull request template for your repository". https://docs.github.com/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

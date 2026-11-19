@@ -58,3 +58,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - Microsoft Learn, "SQL Server index architecture and design guide". https://learn.microsoft.com/sql/relational-databases/sql-server-index-design-guide
 - SQLite Documentation, "EXPLAIN QUERY PLAN". https://www.sqlite.org/eqp.html
 - Microsoft Learn, EF Core "Indexes". https://learn.microsoft.com/ef/core/modeling/indexes
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

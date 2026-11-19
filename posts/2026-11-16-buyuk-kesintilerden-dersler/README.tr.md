@@ -46,3 +46,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - AWS. "Summary of the Amazon DynamoDB Service Disruption in the Northern Virginia (US-EAST-1) Region" (Ekim 2025). https://aws.amazon.com/message/101925/
 - Cloudflare. "Cloudflare outage on November 18, 2025" (Kasım 2025). https://blog.cloudflare.com/18-november-2025-outage/
 - Google SRE Book, "Postmortem Culture: Learning from Failure". https://sre.google/sre-book/postmortem-culture/
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

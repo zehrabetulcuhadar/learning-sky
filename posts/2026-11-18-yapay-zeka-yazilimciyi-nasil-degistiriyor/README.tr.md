@@ -53,3 +53,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - Google Cloud, DORA "Accelerate State of DevOps Report 2024". https://dora.dev/research/2024/dora-report/
 - Google Cloud, DORA "State of AI-assisted Software Development" (2025). https://dora.dev/
 - Addy Osmani. *Beyond Vibe Coding*, O'Reilly, 2025.
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

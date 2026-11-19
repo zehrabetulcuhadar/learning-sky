@@ -56,3 +56,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - MDN Web Docs, "An overview of HTTP". https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview
 - Roy T. Fielding. *Architectural Styles and the Design of Network-based Software Architectures* (2000), Bölüm 5: client-server ve stateless kısıtları.
 - OWASP, "Input Validation Cheat Sheet" (istemci tarafı doğrulamanın güvenlik sağlamadığı üzerine). https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

@@ -56,3 +56,7 @@ _Sources I used for this post. Links last accessed on 18 November 2026._
 - MDN Web Docs, "An overview of HTTP". https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview
 - Roy T. Fielding. *Architectural Styles and the Design of Network-based Software Architectures* (2000), Chapter 5: the client-server and stateless constraints.
 - OWASP, "Input Validation Cheat Sheet" (on why client-side validation is not security). https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
+
+---
+
+© 2026 Zehra Betül Çuhadar. The text and figures of this post are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): you may share them with credit and a link, for non-commercial purposes and without changes. The code examples are all rights reserved, see [LICENSE-CODE](../../LICENSE-CODE).

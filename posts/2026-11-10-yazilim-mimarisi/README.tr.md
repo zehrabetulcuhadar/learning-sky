@@ -65,3 +65,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - Martin Fowler. "Software Architecture Guide". https://martinfowler.com/architecture/
 - Grady Booch'un mimari tanımı, Fowler'ın rehberinde ve "Who Needs an Architect?" yazısında aktarılıyor. https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf
 - Fred Brooks. "No Silver Bullet" (1986), esas ve araz karmaşıklık ayrımı.
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

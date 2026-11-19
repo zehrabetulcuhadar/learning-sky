@@ -66,3 +66,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - Google Engineering Practices, "How to write code review comments". https://google.github.io/eng-practices/review/reviewer/comments.html
 - Michael Lynch. "How to Do Code Reviews Like a Human". https://mtlynch.io/human-code-reviews-1/
 - Erin Meyer. *The Culture Map*, doğrudan ve dolaylı geri bildirim üzerine.
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

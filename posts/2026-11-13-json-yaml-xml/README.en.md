@@ -75,3 +75,7 @@ _Sources I used for this post. Links last accessed on 18 November 2026._
 - W3C, Extensible Markup Language (XML) 1.0. https://www.w3.org/TR/xml/
 - "The Norway Problem" (common write-ups on the YAML 1.1 boolean issue), e.g. https://hitchdev.com/strictyaml/why/implicit-typing-removed/
 - OWASP, "XML External Entity Prevention Cheat Sheet". https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html
+
+---
+
+© 2026 Zehra Betül Çuhadar. The text and figures of this post are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): you may share them with credit and a link, for non-commercial purposes and without changes. The code examples are all rights reserved, see [LICENSE-CODE](../../LICENSE-CODE).

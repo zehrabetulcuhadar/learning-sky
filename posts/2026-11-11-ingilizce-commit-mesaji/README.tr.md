@@ -68,3 +68,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - Conventional Commits 1.0.0. https://www.conventionalcommits.org/
 - Pro Git, "Contributing to a Project: Commit Guidelines". https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project
 - Tim Pope. "A Note About Git Commit Messages" (2008).
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

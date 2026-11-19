@@ -55,3 +55,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - OWASP, "Secrets Management Cheat Sheet". https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
 - Microsoft Learn, "Safe storage of app secrets in development in ASP.NET Core". https://learn.microsoft.com/aspnet/core/security/app-secrets
 - Kullandığın yapay zekâ sağlayıcısının güncel gizlilik ve veri kullanım politikası (tarih notu: bu yazı Kasım 2026'da yazıldı, politikalar değişebilir).
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

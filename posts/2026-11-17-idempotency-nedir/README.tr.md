@@ -69,3 +69,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - Stripe API Reference, "Idempotent requests". https://docs.stripe.com/api/idempotent_requests
 - Brandur Leach. "Implementing Stripe-like Idempotency Keys in Postgres". https://brandur.org/idempotency-keys
 - Martin Kleppmann. *Designing Data-Intensive Applications*, O'Reilly, Bölüm 11 (exactly-once ve idempotence).
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

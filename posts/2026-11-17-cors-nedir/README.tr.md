@@ -87,3 +87,7 @@ _Bu yazıda yararlandığım kaynaklar. Bağlantılara son erişim: 18 Kasım 20
 - Microsoft Learn, "Enable Cross-Origin Requests (CORS) in ASP.NET Core". https://learn.microsoft.com/aspnet/core/security/cors
 - Angular Docs, "Proxying to a backend server". https://angular.dev/tools/cli/serve#proxying-to-a-backend-server
 - PortSwigger Web Security Academy, "CORS" (yaygın yanlış yapılandırmalar). https://portswigger.net/web-security/cors
+
+---
+
+© 2026 Zehra Betül Çuhadar. Bu yazının metni ve görselleri [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.tr) lisanslıdır: adımı ve bağlantıyı vererek, ticari olmayan amaçla ve değiştirmeden paylaşabilirsin. Kod örnekleri için tüm hakları saklıdır, bkz. [LICENSE-CODE](../../LICENSE-CODE).

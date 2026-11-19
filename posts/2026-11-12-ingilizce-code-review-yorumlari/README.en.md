@@ -66,3 +66,7 @@ _Sources I used for this post. Links last accessed on 18 November 2026._
 - Google Engineering Practices, "How to write code review comments". https://google.github.io/eng-practices/review/reviewer/comments.html
 - Michael Lynch. "How to Do Code Reviews Like a Human". https://mtlynch.io/human-code-reviews-1/
 - Erin Meyer. *The Culture Map*, on direct and indirect feedback.
+
+---
+
+© 2026 Zehra Betül Çuhadar. The text and figures of this post are licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): you may share them with credit and a link, for non-commercial purposes and without changes. The code examples are all rights reserved, see [LICENSE-CODE](../../LICENSE-CODE).
