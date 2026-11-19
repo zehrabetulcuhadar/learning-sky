@@ -1,70 +1,520 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-18T21:15:09Z",
+  "generatedAt": "2026-11-19T06:16:50Z",
   "planets": [
     {
       "id": "basics",
       "name": "Basics",
       "color": "#F7C548",
       "style": "bands",
-      "count": 0
+      "count": 2
     },
     {
       "id": "backend",
       "name": "Backend",
       "color": "#F2766B",
       "style": "craters",
-      "count": 0
+      "count": 2
     },
     {
       "id": "frontend",
       "name": "Frontend",
       "color": "#F28AC0",
       "style": "moon",
-      "count": 0
+      "count": 2
     },
     {
       "id": "data",
       "name": "Data",
       "color": "#4FC7B8",
       "style": "wire",
-      "count": 0
+      "count": 2
     },
     {
       "id": "quality",
       "name": "Quality",
       "color": "#8FD694",
       "style": "bands",
-      "count": 0
+      "count": 2
     },
     {
       "id": "architecture",
       "name": "Architecture",
       "color": "#7C8CF2",
       "style": "ring",
-      "count": 0
+      "count": 2
     },
     {
       "id": "ai",
       "name": "AI",
       "color": "#B79BF5",
       "style": "ring",
-      "count": 0
+      "count": 2
     },
     {
       "id": "english",
       "name": "English",
       "color": "#F9A65A",
       "style": "craters",
-      "count": 0
+      "count": 2
     },
     {
       "id": "news",
       "name": "News",
       "color": "#6CC5EE",
       "style": "moon",
-      "count": 0
+      "count": 2
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": "2026-11-10-veritabani-nedir",
+      "date": "2026-11-10",
+      "topic": "data",
+      "series": null,
+      "seriesOrder": 1,
+      "title": {
+        "tr": "Veritabanı nedir? İlişkisel model, tablo ve anahtar",
+        "en": "What is a database? The relational model, tables and keys"
+      },
+      "slug": {
+        "tr": "veritabani-nedir",
+        "en": "what-is-a-database"
+      },
+      "summary": {
+        "tr": "Veritabanı veriyi kalıcı, tutarlı ve aynı anda birçok kişinin güvenle kullanabileceği şekilde saklar; ilişkisel model bunu tablolar ve anahtarlarla yapar.",
+        "en": "A database stores data durably, consistently and safely for many users at once; the relational model does it with tables and keys."
+      },
+      "tags": [
+        "database",
+        "sql",
+        "relational-model"
+      ]
+    },
+    {
+      "id": "2026-11-10-yazilim-mimarisi",
+      "date": "2026-11-10",
+      "topic": "architecture",
+      "series": null,
+      "seriesOrder": 1,
+      "title": {
+        "tr": "Yazılım mimarisi nedir? Trade-off düşüncesi",
+        "en": "What is software architecture? Thinking in trade-offs"
+      },
+      "slug": {
+        "tr": "yazilim-mimarisi-nedir",
+        "en": "what-is-software-architecture"
+      },
+      "summary": {
+        "tr": "Mimari, değiştirmesi pahalı kararların toplamı; her karar bir şey kazandırıp bir şey kaybettirir.",
+        "en": "Architecture is the set of decisions that are expensive to change, and every one of them trades something for something else."
+      },
+      "tags": [
+        "architecture",
+        "trade-off",
+        "decision-making"
+      ]
+    },
+    {
+      "id": "2026-11-11-indeks-nasil-calisir",
+      "date": "2026-11-11",
+      "topic": "data",
+      "series": null,
+      "seriesOrder": 2,
+      "title": {
+        "tr": "Veritabanı indeksi nasıl çalışır? Ne zaman zarar verir?",
+        "en": "How does a database index work? When does it hurt?"
+      },
+      "slug": {
+        "tr": "veritabani-indeksi-nasil-calisir",
+        "en": "how-does-a-database-index-work"
+      },
+      "summary": {
+        "tr": "İndeks, okumayı tam tablo taramasından birkaç adımlık bir ağaç aramasına indirir; bedelini her yazmada ve diskte ödersin.",
+        "en": "An index turns a full table scan into a few steps down a tree; you pay for it on every write and in disk space."
+      },
+      "tags": [
+        "database",
+        "index",
+        "performance",
+        "b-tree"
+      ]
+    },
+    {
+      "id": "2026-11-11-ingilizce-commit-mesaji",
+      "date": "2026-11-11",
+      "topic": "english",
+      "series": null,
+      "seriesOrder": 1,
+      "title": {
+        "tr": "İyi bir commit mesajı İngilizce nasıl yazılır?",
+        "en": "How do you write a good commit message in English?"
+      },
+      "slug": {
+        "tr": "ingilizce-commit-mesaji-nasil-yazilir",
+        "en": "how-to-write-a-good-commit-message"
+      },
+      "summary": {
+        "tr": "Kısa, emir kipinde bir başlık ve 'ne ve neden' anlatan bir gövde: commit mesajı geleceğe yazılan bir nottur.",
+        "en": "A short imperative subject and a body that explains what and why: a commit message is a note to the future."
+      },
+      "tags": [
+        "english",
+        "git",
+        "writing"
+      ]
+    },
+    {
+      "id": "2026-11-12-adr-nasil-yazilir",
+      "date": "2026-11-12",
+      "topic": "architecture",
+      "series": null,
+      "seriesOrder": 2,
+      "title": {
+        "tr": "Mimari karar kaydı (ADR) nasıl yazılır?",
+        "en": "How do you write an Architecture Decision Record (ADR)?"
+      },
+      "slug": {
+        "tr": "mimari-karar-kaydi-adr-nasil-yazilir",
+        "en": "how-to-write-an-architecture-decision-record"
+      },
+      "summary": {
+        "tr": "ADR, bir mimari kararın bağlamını, seçeneklerini ve bedelini bir sayfada yazar; altı ay sonra 'bunu neden yaptık?' sorusunun cevabıdır.",
+        "en": "An ADR captures the context, options and consequences of one architecture decision on a single page; it answers 'why did we do this?' six months later."
+      },
+      "tags": [
+        "architecture",
+        "adr",
+        "documentation",
+        "decision-making"
+      ]
+    },
+    {
+      "id": "2026-11-12-ingilizce-code-review-yorumlari",
+      "date": "2026-11-12",
+      "topic": "english",
+      "series": null,
+      "seriesOrder": 2,
+      "title": {
+        "tr": "Code review yorumları İngilizce nasıl yazılır? Kibar ve net kalıplar",
+        "en": "How do you write code review comments in English? Polite and clear patterns"
+      },
+      "slug": {
+        "tr": "ingilizce-code-review-yorumlari",
+        "en": "code-review-comments-in-english"
+      },
+      "summary": {
+        "tr": "İyi bir review yorumu kodu eleştirir, kişiyi değil; ne kadar önemli olduğunu söyler ve nedenini açıklar.",
+        "en": "A good review comment is about the code, not the person; it says how important it is and explains why."
+      },
+      "tags": [
+        "english",
+        "code-review",
+        "communication"
+      ]
+    },
+    {
+      "id": "2026-11-13-istemci-sunucu-modeli",
+      "date": "2026-11-13",
+      "topic": "backend",
+      "series": null,
+      "seriesOrder": 1,
+      "title": {
+        "tr": "İstemci-sunucu modeli nedir? Frontend ve backend nasıl ayrılır?",
+        "en": "What is the client-server model? How are frontend and backend split?"
+      },
+      "slug": {
+        "tr": "istemci-sunucu-modeli-nedir",
+        "en": "what-is-the-client-server-model"
+      },
+      "summary": {
+        "tr": "İstemci ister, sunucu cevap verir; sınırın nereden geçtiği güveni, güvenliği ve ölçeklemeyi belirler.",
+        "en": "The client asks, the server answers; where the line is drawn decides trust, security and scaling."
+      },
+      "tags": [
+        "backend",
+        "frontend",
+        "client-server",
+        "http"
+      ]
+    },
+    {
+      "id": "2026-11-13-json-yaml-xml",
+      "date": "2026-11-13",
+      "topic": "basics",
+      "series": null,
+      "seriesOrder": 1,
+      "title": {
+        "tr": "JSON, YAML ve XML nedir? Hangisi ne zaman kullanılır?",
+        "en": "What are JSON, YAML and XML? When to use which?"
+      },
+      "slug": {
+        "tr": "json-yaml-xml-nedir",
+        "en": "what-are-json-yaml-and-xml"
+      },
+      "summary": {
+        "tr": "Üçü de yapılandırılmış veriyi metin olarak yazmanın yolu: JSON veri alışverişi, YAML insanın yazdığı ayar, XML şemalı ve belge odaklı işler için öne çıkıyor.",
+        "en": "All three write structured data as text: JSON shines for data exchange, YAML for human-written config, XML for schema-heavy, document-style work."
+      },
+      "tags": [
+        "basics",
+        "json",
+        "yaml",
+        "xml",
+        "serialization"
+      ]
+    },
+    {
+      "id": "2026-11-14-css-nasil-calisir",
+      "date": "2026-11-14",
+      "topic": "frontend",
+      "series": null,
+      "seriesOrder": 1,
+      "title": {
+        "tr": "CSS nasıl çalışır? Kaskad, özgüllük, Flexbox ve Grid",
+        "en": "How does CSS work? The cascade, specificity, Flexbox and Grid"
+      },
+      "slug": {
+        "tr": "css-nasil-calisir",
+        "en": "how-does-css-work"
+      },
+      "summary": {
+        "tr": "Bir elemana birden çok kural uyduğunda kazananı kaskad belirler; düzeni tek boyutta Flexbox, iki boyutta Grid kurar.",
+        "en": "When several rules match an element, the cascade picks the winner; Flexbox lays things out in one dimension, Grid in two."
+      },
+      "tags": [
+        "frontend",
+        "css",
+        "flexbox",
+        "grid"
+      ]
+    },
+    {
+      "id": "2026-11-14-test-piramidi",
+      "date": "2026-11-14",
+      "topic": "quality",
+      "series": null,
+      "seriesOrder": 1,
+      "title": {
+        "tr": "Test neden yazılır? Test piramidi nedir?",
+        "en": "Why write tests? What is the test pyramid?"
+      },
+      "slug": {
+        "tr": "test-neden-yazilir-test-piramidi",
+        "en": "why-write-tests-test-pyramid"
+      },
+      "summary": {
+        "tr": "Testler değişiklik yapma cesareti verir; piramit, hızlı ve ucuz testlerden çok, yavaş ve pahalı testlerden az yazmayı önerir.",
+        "en": "Tests give you the courage to change code; the pyramid says write many fast, cheap tests and few slow, expensive ones."
+      },
+      "tags": [
+        "quality",
+        "testing",
+        "unit-test",
+        "test-pyramid"
+      ]
+    },
+    {
+      "id": "2026-11-15-sektor-nasil-takip-edilir",
+      "date": "2026-11-15",
+      "topic": "news",
+      "series": null,
+      "seriesOrder": 1,
+      "title": {
+        "tr": "Yazılım sektörü nasıl takip edilir? Haftalık okuma rutinim",
+        "en": "How do you keep up with the software industry? My weekly reading routine"
+      },
+      "slug": {
+        "tr": "yazilim-sektoru-nasil-takip-edilir",
+        "en": "how-to-keep-up-with-the-software-industry"
+      },
+      "summary": {
+        "tr": "Her şeyi okumak imkânsız; az ama güvenilir kaynak, sabit bir zaman ve 'bu beni ne kadar ilgilendiriyor?' filtresi yetiyor.",
+        "en": "Reading everything is impossible; a few trusted sources, a fixed time slot and a 'how much does this affect me?' filter are enough."
+      },
+      "tags": [
+        "news",
+        "learning",
+        "habits",
+        "rss"
+      ]
+    },
+    {
+      "id": "2026-11-15-yapay-zekaya-hangi-veri-verilmez",
+      "date": "2026-11-15",
+      "topic": "ai",
+      "series": null,
+      "seriesOrder": 1,
+      "title": {
+        "tr": "Yapay zekâ kullanırken hangi veri paylaşılmaz? Gizlilik, KVKK ve şirket kuralları",
+        "en": "What data should you never share with AI? Privacy, KVKK and company rules"
+      },
+      "slug": {
+        "tr": "yapay-zekaya-hangi-veri-paylasilmaz",
+        "en": "what-data-not-to-share-with-ai"
+      },
+      "summary": {
+        "tr": "Bir yapay zekâ aracına yapıştırdığın her şey şirketin dışına çıkan veridir; sırlar, kişisel veriler ve gizli iş bilgisi önce maskelenir ya da hiç paylaşılmaz.",
+        "en": "Everything you paste into an AI tool is data leaving the company; secrets, personal data and confidential business information are masked first or never shared."
+      },
+      "tags": [
+        "ai",
+        "privacy",
+        "security",
+        "kvkk"
+      ]
+    },
+    {
+      "id": "2026-11-16-buyuk-kesintilerden-dersler",
+      "date": "2026-11-16",
+      "topic": "news",
+      "series": null,
+      "seriesOrder": 2,
+      "title": {
+        "tr": "Büyük kesintilerden ne öğrendik? CrowdStrike, AWS ve Cloudflare",
+        "en": "What did we learn from the big outages? CrowdStrike, AWS and Cloudflare"
+      },
+      "slug": {
+        "tr": "buyuk-kesintilerden-ne-ogrendik",
+        "en": "lessons-from-big-outages"
+      },
+      "summary": {
+        "tr": "Son yılların en büyük kesintilerinin çoğu saldırı değil, bir yapılandırma ya da güncellemeydi; ortak ders kademeli yayın, sınır kontrolü ve küçük etki alanı.",
+        "en": "Most of the biggest outages of recent years were not attacks but a config change or an update; the shared lessons are staged rollouts, input validation and a small blast radius."
+      },
+      "tags": [
+        "news",
+        "outage",
+        "postmortem",
+        "reliability"
+      ]
+    },
+    {
+      "id": "2026-11-16-exception-nedir",
+      "date": "2026-11-16",
+      "topic": "basics",
+      "series": null,
+      "seriesOrder": 2,
+      "title": {
+        "tr": "İstisna (exception) nedir? Hata yönetimi nasıl yapılır?",
+        "en": "What is an exception? How should errors be handled?"
+      },
+      "slug": {
+        "tr": "exception-nedir-hata-yonetimi",
+        "en": "what-is-an-exception-error-handling"
+      },
+      "summary": {
+        "tr": "Exception, bir fonksiyonun sözünü tutamadığını haber veren bir mekanizma; yakalanacak yer, hatayla gerçekten bir şey yapabilen yerdir.",
+        "en": "An exception is how a function reports it cannot keep its promise; the place to catch it is where you can actually do something about it."
+      },
+      "tags": [
+        "basics",
+        "exceptions",
+        "error-handling",
+        "csharp"
+      ]
+    },
+    {
+      "id": "2026-11-17-cors-nedir",
+      "date": "2026-11-17",
+      "topic": "frontend",
+      "series": null,
+      "seriesOrder": 2,
+      "title": {
+        "tr": "CORS nedir? Tarayıcı isteğimi neden engelledi?",
+        "en": "What is CORS? Why did the browser block my request?"
+      },
+      "slug": {
+        "tr": "cors-nedir",
+        "en": "what-is-cors"
+      },
+      "summary": {
+        "tr": "CORS bir güvenlik duvarı değil, tarayıcının aynı köken kuralına sunucunun izniyle açılan kontrollü bir kapı.",
+        "en": "CORS is not a firewall; it is a controlled door in the browser's same-origin policy, opened with the server's permission."
+      },
+      "tags": [
+        "frontend",
+        "cors",
+        "security",
+        "http",
+        "angular"
+      ]
+    },
+    {
+      "id": "2026-11-17-idempotency-nedir",
+      "date": "2026-11-17",
+      "topic": "backend",
+      "series": null,
+      "seriesOrder": 2,
+      "title": {
+        "tr": "Idempotency nedir? Aynı istek iki kez gelirse ne olur?",
+        "en": "What is idempotency? What happens if the same request arrives twice?"
+      },
+      "slug": {
+        "tr": "idempotency-nedir",
+        "en": "what-is-idempotency"
+      },
+      "summary": {
+        "tr": "Bir işlem bir kez de yapılsa on kez de yapılsa sonuç aynıysa idempotent'tir; ağ güvenilmez olduğu için tekrar denemeler ancak böyle güvenli olur.",
+        "en": "An operation is idempotent if doing it once or ten times gives the same result; because networks are unreliable, retries are only safe this way."
+      },
+      "tags": [
+        "backend",
+        "api",
+        "http",
+        "idempotency",
+        "reliability"
+      ]
+    },
+    {
+      "id": "2026-11-18-code-review-nasil-yapilir",
+      "date": "2026-11-18",
+      "topic": "quality",
+      "series": null,
+      "seriesOrder": 2,
+      "title": {
+        "tr": "Code review nasıl yapılır? Neye, hangi sırayla bakılır?",
+        "en": "How do you do a code review? What to look at, and in what order?"
+      },
+      "slug": {
+        "tr": "code-review-nasil-yapilir",
+        "en": "how-to-do-a-code-review"
+      },
+      "summary": {
+        "tr": "İyi bir review önce tasarıma ve doğruluğa, en son stile bakar; stili makineye bırakır, küçük PR'ları hızlı inceler.",
+        "en": "A good review looks at design and correctness first and style last; it leaves style to machines and reviews small PRs quickly."
+      },
+      "tags": [
+        "quality",
+        "code-review",
+        "pull-request",
+        "teamwork"
+      ]
+    },
+    {
+      "id": "2026-11-18-yapay-zeka-yazilimciyi-nasil-degistiriyor",
+      "date": "2026-11-18",
+      "topic": "ai",
+      "series": null,
+      "seriesOrder": 2,
+      "title": {
+        "tr": "Yapay zekâ yazılımcının işini nasıl değiştiriyor?",
+        "en": "How is AI changing a software developer's job?"
+      },
+      "slug": {
+        "tr": "yapay-zeka-yazilimcinin-isini-nasil-degistiriyor",
+        "en": "how-ai-is-changing-software-developers-job"
+      },
+      "summary": {
+        "tr": "Kod yazmak ucuzladı, doğru kodu seçmek pahalılaştı: iş, yazmaktan tarif etmeye, incelemeye ve karar vermeye kayıyor.",
+        "en": "Writing code got cheap and choosing the right code got expensive: the job is shifting from typing to specifying, reviewing and deciding."
+      },
+      "tags": [
+        "ai",
+        "career",
+        "software-engineering",
+        "learning"
+      ]
+    }
+  ]
 }

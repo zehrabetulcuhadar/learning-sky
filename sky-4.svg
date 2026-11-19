@@ -149,6 +149,25 @@
 <circle cx="850.0" cy="177.7" r="42.0" fill="url(#h-news)"/><clipPath id="cl-news"><circle cx="850.0" cy="177.7" r="20.0"/></clipPath><circle cx="850.0" cy="177.7" r="20.0" fill="#6CC5EE"/><g clip-path="url(#cl-news)"><circle cx="861.0" cy="184.7" r="20.0" fill="#05071a" fill-opacity=".42"/></g><circle cx="850.0" cy="177.7" r="20.0" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/><g><circle cx="884.0" cy="177.7" r="4.4" fill="#e0e7ff"/><animateTransform attributeName="transform" type="rotate" from="0 850.0 177.7" to="360 850.0 177.7" dur="14s" repeatCount="indefinite"/></g>
 <text class="lbl" x="850.0" y="236.4">~/news</text>
 </g>
+<g transform="translate(369.7 150.9)"><path class="st" style="animation-delay:0.00s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(571.0 189.3)"><path class="st" style="animation-delay:0.45s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(387.0 167.3)"><path class="st" style="animation-delay:0.90s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(772.3 191.6)"><path class="st" style="animation-delay:1.35s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(589.4 207.1)"><path class="st" style="animation-delay:1.80s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(792.0 210.8)"><path class="st" style="animation-delay:2.25s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(171.7 221.7)"><path class="st" style="animation-delay:2.70s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(69.3 182.4)"><path class="st" style="animation-delay:3.15s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(270.7 203.3)"><path class="st" style="animation-delay:3.60s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(472.0 138.1)"><path class="st" style="animation-delay:4.05s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(871.3 141.7)"><path class="st" style="animation-delay:4.50s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(670.0 226.3)"><path class="st" style="animation-delay:4.95s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(890.1 159.9)"><path class="st" style="animation-delay:5.40s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(86.3 198.5)"><path class="st" style="animation-delay:5.85s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(288.9 220.8)"><path class="st" style="animation-delay:6.30s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(190.8 240.3)"><path class="st" style="animation-delay:6.75s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(491.3 156.9)"><path class="st" style="animation-delay:7.20s" d="M0 -7 Q0 0 7 0 Q0 0 0 7 Q0 0 -7 0 Q0 0 0 -7Z" fill="url(#gold)"/></g>
+<g transform="translate(687.6 243.0)"><circle class="ring" r="9" fill="none" stroke="#fde68a" stroke-width="1.2"/></g>
+<g transform="translate(687.6 243.0)"><path class="new" style="animation-delay:0.00s" d="M0 -11 Q0 0 11 0 Q0 0 0 11 Q0 0 -11 0 Q0 0 0 -11Z" fill="url(#gold)"/></g>
 <g transform="translate(40 90) rotate(26)"><g class="ss" style="animation-delay:1.5s"><line x1="-90" y1="0" x2="0" y2="0" stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/><circle r="2.2" fill="#fff"/></g></g>
 <g transform="translate(120 250) rotate(26)"><g class="ss" style="animation-delay:5.5s"><line x1="-90" y1="0" x2="0" y2="0" stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/><circle r="2.2" fill="#fff"/></g></g>
 <g transform="translate(260 40) rotate(26)"><g class="ss" style="animation-delay:8.2s"><line x1="-90" y1="0" x2="0" y2="0" stroke="url(#tail)" stroke-width="2" stroke-linecap="round"/><circle r="2.2" fill="#fff"/></g></g>

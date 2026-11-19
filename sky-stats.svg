@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" width="900" height="170" role="img" aria-label="Learning sky: 0 stars">
-<title>Learning sky counter</title><desc>0 published posts, 0 drafts, 0 scheduled, across 9 planets.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" width="900" height="170" role="img" aria-label="Learning sky: 18 stars">
+<title>Learning sky counter</title><desc>18 published posts, 0 drafts, 0 scheduled, across 9 planets.</desc>
 <defs><linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b1f"/><stop offset=".55" stop-color="#14103a"/><stop offset="1" stop-color="#241552"/></linearGradient>
 <radialGradient id="sgold" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fcd34d"/></radialGradient>
 <linearGradient id="sbar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fcd34d"/><stop offset="1" stop-color="#f28ac0"/></linearGradient></defs>
@@ -40,40 +40,59 @@
 <circle cx="328.6" cy="30.8" r="1" fill="#e0e7ff" opacity="0.57"/>
 <circle cx="489.9" cy="56.1" r="1" fill="#e0e7ff" opacity="0.32"/>
 <g transform="translate(46 62)"><path class="tw" d="M0 -16 Q0 0 16 0 Q0 0 0 16 Q0 0 -16 0 Q0 0 0 -16Z" fill="url(#sgold)"/></g>
-<text class="big" x="72" y="84">0</text>
+<text class="big" x="72" y="84">18</text>
 <text class="k" x="30" y="114">STARS IN THE SKY</text>
 <text class="m" x="30" y="138">✧ 0 forming · 0 on the way</text>
-<g class="dim"><circle cx="280.0" cy="104" r="11" fill="#F7C548"/><clipPath id="sc0"><circle cx="280.0" cy="104" r="11"/></clipPath><circle cx="285.0" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc0)"/></g>
-<text class="pc" x="280.0" y="108">0</text>
+<g><circle cx="280.0" cy="104" r="11" fill="#F7C548"/><clipPath id="sc0"><circle cx="280.0" cy="104" r="11"/></clipPath><circle cx="285.0" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc0)"/></g>
+<text class="pc" x="280.0" y="108">2</text>
+<path d="M280.0 75 Q280.0 80 285.0 80 Q280.0 80 280.0 85 Q280.0 80 275.0 80 Q280.0 80 280.0 75Z" fill="url(#sgold)"/>
+<path d="M280.0 63 Q280.0 68 285.0 68 Q280.0 68 280.0 73 Q280.0 68 275.0 68 Q280.0 68 280.0 63Z" fill="url(#sgold)"/>
 <text class="pl" x="280.0" y="134">basics</text>
-<g class="dim"><circle cx="322.5" cy="104" r="11" fill="#F2766B"/><clipPath id="sc1"><circle cx="322.5" cy="104" r="11"/></clipPath><circle cx="327.5" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc1)"/></g>
-<text class="pc" x="322.5" y="108">0</text>
+<g><circle cx="322.5" cy="104" r="11" fill="#F2766B"/><clipPath id="sc1"><circle cx="322.5" cy="104" r="11"/></clipPath><circle cx="327.5" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc1)"/></g>
+<text class="pc" x="322.5" y="108">2</text>
+<path d="M322.5 75 Q322.5 80 327.5 80 Q322.5 80 322.5 85 Q322.5 80 317.5 80 Q322.5 80 322.5 75Z" fill="url(#sgold)"/>
+<path d="M322.5 63 Q322.5 68 327.5 68 Q322.5 68 322.5 73 Q322.5 68 317.5 68 Q322.5 68 322.5 63Z" fill="url(#sgold)"/>
 <text class="pl" x="322.5" y="134">back</text>
-<g class="dim"><circle cx="365.0" cy="104" r="11" fill="#F28AC0"/><clipPath id="sc2"><circle cx="365.0" cy="104" r="11"/></clipPath><circle cx="370.0" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc2)"/></g>
-<text class="pc" x="365.0" y="108">0</text>
+<g><circle cx="365.0" cy="104" r="11" fill="#F28AC0"/><clipPath id="sc2"><circle cx="365.0" cy="104" r="11"/></clipPath><circle cx="370.0" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc2)"/></g>
+<text class="pc" x="365.0" y="108">2</text>
+<path d="M365.0 75 Q365.0 80 370.0 80 Q365.0 80 365.0 85 Q365.0 80 360.0 80 Q365.0 80 365.0 75Z" fill="url(#sgold)"/>
+<path d="M365.0 63 Q365.0 68 370.0 68 Q365.0 68 365.0 73 Q365.0 68 360.0 68 Q365.0 68 365.0 63Z" fill="url(#sgold)"/>
 <text class="pl" x="365.0" y="134">front</text>
-<g class="dim"><circle cx="407.5" cy="104" r="11" fill="#4FC7B8"/><clipPath id="sc3"><circle cx="407.5" cy="104" r="11"/></clipPath><circle cx="412.5" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc3)"/></g>
-<text class="pc" x="407.5" y="108">0</text>
+<g><circle cx="407.5" cy="104" r="11" fill="#4FC7B8"/><clipPath id="sc3"><circle cx="407.5" cy="104" r="11"/></clipPath><circle cx="412.5" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc3)"/></g>
+<text class="pc" x="407.5" y="108">2</text>
+<path d="M407.5 75 Q407.5 80 412.5 80 Q407.5 80 407.5 85 Q407.5 80 402.5 80 Q407.5 80 407.5 75Z" fill="url(#sgold)"/>
+<path d="M407.5 63 Q407.5 68 412.5 68 Q407.5 68 407.5 73 Q407.5 68 402.5 68 Q407.5 68 407.5 63Z" fill="url(#sgold)"/>
 <text class="pl" x="407.5" y="134">data</text>
-<g class="dim"><circle cx="450.0" cy="104" r="11" fill="#8FD694"/><clipPath id="sc4"><circle cx="450.0" cy="104" r="11"/></clipPath><circle cx="455.0" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc4)"/></g>
-<text class="pc" x="450.0" y="108">0</text>
+<g><circle cx="450.0" cy="104" r="11" fill="#8FD694"/><clipPath id="sc4"><circle cx="450.0" cy="104" r="11"/></clipPath><circle cx="455.0" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc4)"/></g>
+<text class="pc" x="450.0" y="108">2</text>
+<path d="M450.0 75 Q450.0 80 455.0 80 Q450.0 80 450.0 85 Q450.0 80 445.0 80 Q450.0 80 450.0 75Z" fill="url(#sgold)"/>
+<path d="M450.0 63 Q450.0 68 455.0 68 Q450.0 68 450.0 73 Q450.0 68 445.0 68 Q450.0 68 450.0 63Z" fill="url(#sgold)"/>
 <text class="pl" x="450.0" y="134">qual</text>
-<g class="dim"><circle cx="492.5" cy="104" r="11" fill="#7C8CF2"/><clipPath id="sc5"><circle cx="492.5" cy="104" r="11"/></clipPath><circle cx="497.5" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc5)"/></g>
-<text class="pc" x="492.5" y="108">0</text>
+<g><circle cx="492.5" cy="104" r="11" fill="#7C8CF2"/><clipPath id="sc5"><circle cx="492.5" cy="104" r="11"/></clipPath><circle cx="497.5" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc5)"/></g>
+<text class="pc" x="492.5" y="108">2</text>
+<path d="M492.5 75 Q492.5 80 497.5 80 Q492.5 80 492.5 85 Q492.5 80 487.5 80 Q492.5 80 492.5 75Z" fill="url(#sgold)"/>
+<path d="M492.5 63 Q492.5 68 497.5 68 Q492.5 68 492.5 73 Q492.5 68 487.5 68 Q492.5 68 492.5 63Z" fill="url(#sgold)"/>
 <text class="pl" x="492.5" y="134">arch</text>
-<g class="dim"><circle cx="535.0" cy="104" r="11" fill="#B79BF5"/><clipPath id="sc6"><circle cx="535.0" cy="104" r="11"/></clipPath><circle cx="540.0" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc6)"/></g>
-<text class="pc" x="535.0" y="108">0</text>
+<g><circle cx="535.0" cy="104" r="11" fill="#B79BF5"/><clipPath id="sc6"><circle cx="535.0" cy="104" r="11"/></clipPath><circle cx="540.0" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc6)"/></g>
+<text class="pc" x="535.0" y="108">2</text>
+<path d="M535.0 75 Q535.0 80 540.0 80 Q535.0 80 535.0 85 Q535.0 80 530.0 80 Q535.0 80 535.0 75Z" fill="url(#sgold)"/>
+<path d="M535.0 63 Q535.0 68 540.0 68 Q535.0 68 535.0 73 Q535.0 68 530.0 68 Q535.0 68 535.0 63Z" fill="url(#sgold)"/>
 <text class="pl" x="535.0" y="134">ai</text>
-<g class="dim"><circle cx="577.5" cy="104" r="11" fill="#F9A65A"/><clipPath id="sc7"><circle cx="577.5" cy="104" r="11"/></clipPath><circle cx="582.5" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc7)"/></g>
-<text class="pc" x="577.5" y="108">0</text>
+<g><circle cx="577.5" cy="104" r="11" fill="#F9A65A"/><clipPath id="sc7"><circle cx="577.5" cy="104" r="11"/></clipPath><circle cx="582.5" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc7)"/></g>
+<text class="pc" x="577.5" y="108">2</text>
+<path d="M577.5 75 Q577.5 80 582.5 80 Q577.5 80 577.5 85 Q577.5 80 572.5 80 Q577.5 80 577.5 75Z" fill="url(#sgold)"/>
+<path d="M577.5 63 Q577.5 68 582.5 68 Q577.5 68 577.5 73 Q577.5 68 572.5 68 Q577.5 68 577.5 63Z" fill="url(#sgold)"/>
 <text class="pl" x="577.5" y="134">eng</text>
-<g class="dim"><circle cx="620.0" cy="104" r="11" fill="#6CC5EE"/><clipPath id="sc8"><circle cx="620.0" cy="104" r="11"/></clipPath><circle cx="625.0" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc8)"/></g>
-<text class="pc" x="620.0" y="108">0</text>
+<g><circle cx="620.0" cy="104" r="11" fill="#6CC5EE"/><clipPath id="sc8"><circle cx="620.0" cy="104" r="11"/></clipPath><circle cx="625.0" cy="108" r="11" fill="#05071a" fill-opacity=".35" clip-path="url(#sc8)"/></g>
+<text class="pc" x="620.0" y="108">2</text>
+<path d="M620.0 75 Q620.0 80 625.0 80 Q620.0 80 620.0 85 Q620.0 80 615.0 80 Q620.0 80 620.0 75Z" fill="url(#sgold)"/>
+<path d="M620.0 63 Q620.0 68 625.0 68 Q620.0 68 620.0 73 Q620.0 68 615.0 68 Q620.0 68 620.0 63Z" fill="url(#sgold)"/>
 <text class="pl" x="620.0" y="134">news</text>
-<text class="k" x="270" y="34">0/9 PLANETS LIT</text>
+<text class="k" x="270" y="34">9/9 PLANETS LIT</text>
 <text class="k" x="660" y="36">NEXT STAR</text><text class="v" x="660" y="56">soon ✦</text>
-<text class="k" x="784" y="36">LAST STAR</text><text class="v" x="784" y="56">not yet</text>
+<text class="k" x="784" y="36">LAST STAR</text><text class="v" x="784" y="56">18 Nov 2026</text>
 <text class="k" x="660" y="96">MILESTONE · 2 ON EVERY PLANET</text>
 <rect x="660" y="106" width="210" height="10" rx="5" fill="#ffffff" fill-opacity=".12"/>
-<text class="m" x="660" y="138">0 / 18 stars</text>
+<rect x="660" y="106" width="210.0" height="10" rx="5" fill="url(#sbar)"/>
+<text class="m" x="660" y="138">18 / 18 stars</text>
 </svg>
