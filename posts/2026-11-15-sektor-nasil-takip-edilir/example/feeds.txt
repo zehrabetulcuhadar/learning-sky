@@ -1,0 +1,6 @@
+# Primary sources: the tools I use
+https://devblogs.microsoft.com/dotnet/feed/
+https://blog.angular.dev/feed
+https://github.blog/changelog/feed/
+# Curated
+https://feed.infoq.com/

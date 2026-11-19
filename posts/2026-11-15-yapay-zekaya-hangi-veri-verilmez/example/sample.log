@@ -1,0 +1,6 @@
+2026-12-26 10:42:01 ERROR OrderService failed for customer ayse.demir@example.com (TCKN 10000000146)
+  Phone: +90 532 123 45 67, IBAN: TR33 0006 1005 1978 6457 8413 26
+  ConnectionString: Server=db01;Database=Shop;User Id=app;Password=S3cr3t!Pass;
+  Request headers: Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjMifQ.abc123def456
+  config: ApiKey = "sk-test-51HxYzAbCdEfGhIjKlMn"  aws_key=AKIAIOSFODNN7EXAMPLE
+  order id 12345678901 (not a valid TCKN, so it stays)

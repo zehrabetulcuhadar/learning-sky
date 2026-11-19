@@ -1,0 +1,6 @@
+# YAML allows comments. Quote values that could be misread:
+title: What is a database?
+topic: data
+tags: [sql, basics]
+draft: true
+country: "NO"   # unquoted NO is the boolean false in YAML 1.1 parsers

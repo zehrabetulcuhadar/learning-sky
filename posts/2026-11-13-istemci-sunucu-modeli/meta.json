@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-13",
+  "topic": "backend",
+  "series": "",
+  "seriesOrder": 1,
+  "title": {
+    "tr": "İstemci-sunucu modeli nedir? Frontend ve backend nasıl ayrılır?",
+    "en": "What is the client-server model? How are frontend and backend split?"
+  },
+  "slug": {
+    "tr": "istemci-sunucu-modeli-nedir",
+    "en": "what-is-the-client-server-model"
+  },
+  "summary": {
+    "tr": "İstemci ister, sunucu cevap verir; sınırın nereden geçtiği güveni, güvenliği ve ölçeklemeyi belirler.",
+    "en": "The client asks, the server answers; where the line is drawn decides trust, security and scaling."
+  },
+  "tags": [
+    "backend",
+    "frontend",
+    "client-server",
+    "http"
+  ]
+}

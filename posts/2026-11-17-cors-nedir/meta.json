@@ -1,0 +1,26 @@
+{
+  "status": "published",
+  "date": "2026-11-17",
+  "topic": "frontend",
+  "series": "",
+  "seriesOrder": 2,
+  "title": {
+    "tr": "CORS nedir? Tarayıcı isteğimi neden engelledi?",
+    "en": "What is CORS? Why did the browser block my request?"
+  },
+  "slug": {
+    "tr": "cors-nedir",
+    "en": "what-is-cors"
+  },
+  "summary": {
+    "tr": "CORS bir güvenlik duvarı değil, tarayıcının aynı köken kuralına sunucunun izniyle açılan kontrollü bir kapı.",
+    "en": "CORS is not a firewall; it is a controlled door in the browser's same-origin policy, opened with the server's permission."
+  },
+  "tags": [
+    "frontend",
+    "cors",
+    "security",
+    "http",
+    "angular"
+  ]
+}

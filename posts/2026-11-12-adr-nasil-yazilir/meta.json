@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-12",
+  "topic": "architecture",
+  "series": "",
+  "seriesOrder": 2,
+  "title": {
+    "tr": "Mimari karar kaydı (ADR) nasıl yazılır?",
+    "en": "How do you write an Architecture Decision Record (ADR)?"
+  },
+  "slug": {
+    "tr": "mimari-karar-kaydi-adr-nasil-yazilir",
+    "en": "how-to-write-an-architecture-decision-record"
+  },
+  "summary": {
+    "tr": "ADR, bir mimari kararın bağlamını, seçeneklerini ve bedelini bir sayfada yazar; altı ay sonra 'bunu neden yaptık?' sorusunun cevabıdır.",
+    "en": "An ADR captures the context, options and consequences of one architecture decision on a single page; it answers 'why did we do this?' six months later."
+  },
+  "tags": [
+    "architecture",
+    "adr",
+    "documentation",
+    "decision-making"
+  ]
+}

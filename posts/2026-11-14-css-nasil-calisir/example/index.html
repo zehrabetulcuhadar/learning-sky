@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS: cascade, Flexbox, Grid</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body { font-family: system-ui, sans-serif; margin: 0; padding: 24px; background: #fbf7f2; color: #2b2340; line-height: 1.5; }
+  section { margin-bottom: 40px; }
+  code { background: #eee6ff; padding: 1px 5px; border-radius: 4px; }
+
+  /* 1. Specificity contest: all four rules match the paragraph below */
+  p { color: tomato; }                       /* (0,0,1) */
+  .note { color: seagreen; }                 /* (0,1,0) */
+  #demo .note { color: rebeccapurple; }      /* (1,1,0)  <- wins */
+  .box p.note { color: steelblue; }          /* (0,2,1)  loses to the id */
+
+  /* 2. Flexbox: one axis */
+  .menu { display: flex; gap: 12px; align-items: center; padding: 12px; background: #2b2340; border-radius: 12px; }
+  .menu a { color: #fff; text-decoration: none; }
+  .menu .spacer { flex: 1; }                  /* pushes the last link to the right */
+  .stage { display: flex; align-items: center; justify-content: center; height: 140px; margin-top: 12px; background: #eee6ff; border-radius: 12px; }
+  .stage div { padding: 12px 20px; background: #fff; border-radius: 10px; }
+
+  /* 3. Grid: two axes, responsive without media queries */
+  .gallery { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+  .card { display: flex; flex-direction: column; gap: 8px; padding: 16px; background: #fff; border-radius: 14px; box-shadow: 0 2px 0 #d9cfee; }
+  .card .row { display: flex; justify-content: space-between; align-items: center; } /* Flexbox inside Grid */
+</style>
+</head>
+<body>
+  <section id="demo" class="box">
+    <h2>1. Specificity</h2>
+    <p class="note">Which colour am I? Purple: <code>#demo .note</code> is (1,1,0) and beats <code>.box p.note</code> (0,2,1), because one id beats any number of classes.</p>
+  </section>
+
+  <section>
+    <h2>2. Flexbox</h2>
+    <nav class="menu"><a href="#">Sky</a><a href="#">Planets</a><span class="spacer"></span><a href="#">Contact</a></nav>
+    <div class="stage"><div>Perfectly centered</div></div>
+  </section>
+
+  <section>
+    <h2>3. Grid</h2>
+    <p>Resize the window: the number of columns changes by itself.</p>
+    <div class="gallery">
+      <div class="card"><strong>basics</strong><div class="row"><span>2 posts</span><span>✦</span></div></div>
+      <div class="card"><strong>backend</strong><div class="row"><span>2 posts</span><span>✦</span></div></div>
+      <div class="card"><strong>frontend</strong><div class="row"><span>2 posts</span><span>✦</span></div></div>
+      <div class="card"><strong>data</strong><div class="row"><span>2 posts</span><span>✦</span></div></div>
+      <div class="card"><strong>quality</strong><div class="row"><span>2 posts</span><span>✦</span></div></div>
+      <div class="card"><strong>architecture</strong><div class="row"><span>2 posts</span><span>✦</span></div></div>
+    </div>
+  </section>
+</body>
+</html>

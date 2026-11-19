@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-18",
+  "topic": "ai",
+  "series": "",
+  "seriesOrder": 2,
+  "title": {
+    "tr": "Yapay zekâ yazılımcının işini nasıl değiştiriyor?",
+    "en": "How is AI changing a software developer's job?"
+  },
+  "slug": {
+    "tr": "yapay-zeka-yazilimcinin-isini-nasil-degistiriyor",
+    "en": "how-ai-is-changing-software-developers-job"
+  },
+  "summary": {
+    "tr": "Kod yazmak ucuzladı, doğru kodu seçmek pahalılaştı: iş, yazmaktan tarif etmeye, incelemeye ve karar vermeye kayıyor.",
+    "en": "Writing code got cheap and choosing the right code got expensive: the job is shifting from typing to specifying, reviewing and deciding."
+  },
+  "tags": [
+    "ai",
+    "career",
+    "software-engineering",
+    "learning"
+  ]
+}

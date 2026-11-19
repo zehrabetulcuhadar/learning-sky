@@ -1,0 +1,24 @@
+{
+  "status": "published",
+  "date": "2026-11-10",
+  "topic": "data",
+  "series": "",
+  "seriesOrder": 1,
+  "title": {
+    "tr": "Veritabanı nedir? İlişkisel model, tablo ve anahtar",
+    "en": "What is a database? The relational model, tables and keys"
+  },
+  "slug": {
+    "tr": "veritabani-nedir",
+    "en": "what-is-a-database"
+  },
+  "summary": {
+    "tr": "Veritabanı veriyi kalıcı, tutarlı ve aynı anda birçok kişinin güvenle kullanabileceği şekilde saklar; ilişkisel model bunu tablolar ve anahtarlarla yapar.",
+    "en": "A database stores data durably, consistently and safely for many users at once; the relational model does it with tables and keys."
+  },
+  "tags": [
+    "database",
+    "sql",
+    "relational-model"
+  ]
+}

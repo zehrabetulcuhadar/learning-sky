@@ -1,0 +1,24 @@
+{
+  "status": "published",
+  "date": "2026-11-10",
+  "topic": "architecture",
+  "series": "",
+  "seriesOrder": 1,
+  "title": {
+    "tr": "Yazılım mimarisi nedir? Trade-off düşüncesi",
+    "en": "What is software architecture? Thinking in trade-offs"
+  },
+  "slug": {
+    "tr": "yazilim-mimarisi-nedir",
+    "en": "what-is-software-architecture"
+  },
+  "summary": {
+    "tr": "Mimari, değiştirmesi pahalı kararların toplamı; her karar bir şey kazandırıp bir şey kaybettirir.",
+    "en": "Architecture is the set of decisions that are expensive to change, and every one of them trades something for something else."
+  },
+  "tags": [
+    "architecture",
+    "trade-off",
+    "decision-making"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "published",
+  "date": "2026-11-17",
+  "topic": "backend",
+  "series": "",
+  "seriesOrder": 2,
+  "title": {
+    "tr": "Idempotency nedir? Aynı istek iki kez gelirse ne olur?",
+    "en": "What is idempotency? What happens if the same request arrives twice?"
+  },
+  "slug": {
+    "tr": "idempotency-nedir",
+    "en": "what-is-idempotency"
+  },
+  "summary": {
+    "tr": "Bir işlem bir kez de yapılsa on kez de yapılsa sonuç aynıysa idempotent'tir; ağ güvenilmez olduğu için tekrar denemeler ancak böyle güvenli olur.",
+    "en": "An operation is idempotent if doing it once or ten times gives the same result; because networks are unreliable, retries are only safe this way."
+  },
+  "tags": [
+    "backend",
+    "api",
+    "http",
+    "idempotency",
+    "reliability"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-18",
+  "topic": "quality",
+  "series": "",
+  "seriesOrder": 2,
+  "title": {
+    "tr": "Code review nasıl yapılır? Neye, hangi sırayla bakılır?",
+    "en": "How do you do a code review? What to look at, and in what order?"
+  },
+  "slug": {
+    "tr": "code-review-nasil-yapilir",
+    "en": "how-to-do-a-code-review"
+  },
+  "summary": {
+    "tr": "İyi bir review önce tasarıma ve doğruluğa, en son stile bakar; stili makineye bırakır, küçük PR'ları hızlı inceler.",
+    "en": "A good review looks at design and correctness first and style last; it leaves style to machines and reviews small PRs quickly."
+  },
+  "tags": [
+    "quality",
+    "code-review",
+    "pull-request",
+    "teamwork"
+  ]
+}

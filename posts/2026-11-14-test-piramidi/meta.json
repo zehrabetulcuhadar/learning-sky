@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-14",
+  "topic": "quality",
+  "series": "",
+  "seriesOrder": 1,
+  "title": {
+    "tr": "Test neden yazılır? Test piramidi nedir?",
+    "en": "Why write tests? What is the test pyramid?"
+  },
+  "slug": {
+    "tr": "test-neden-yazilir-test-piramidi",
+    "en": "why-write-tests-test-pyramid"
+  },
+  "summary": {
+    "tr": "Testler değişiklik yapma cesareti verir; piramit, hızlı ve ucuz testlerden çok, yavaş ve pahalı testlerden az yazmayı önerir.",
+    "en": "Tests give you the courage to change code; the pyramid says write many fast, cheap tests and few slow, expensive ones."
+  },
+  "tags": [
+    "quality",
+    "testing",
+    "unit-test",
+    "test-pyramid"
+  ]
+}

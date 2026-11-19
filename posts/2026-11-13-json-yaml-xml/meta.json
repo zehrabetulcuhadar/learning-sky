@@ -1,0 +1,26 @@
+{
+  "status": "published",
+  "date": "2026-11-13",
+  "topic": "basics",
+  "series": "",
+  "seriesOrder": 1,
+  "title": {
+    "tr": "JSON, YAML ve XML nedir? Hangisi ne zaman kullanılır?",
+    "en": "What are JSON, YAML and XML? When to use which?"
+  },
+  "slug": {
+    "tr": "json-yaml-xml-nedir",
+    "en": "what-are-json-yaml-and-xml"
+  },
+  "summary": {
+    "tr": "Üçü de yapılandırılmış veriyi metin olarak yazmanın yolu: JSON veri alışverişi, YAML insanın yazdığı ayar, XML şemalı ve belge odaklı işler için öne çıkıyor.",
+    "en": "All three write structured data as text: JSON shines for data exchange, YAML for human-written config, XML for schema-heavy, document-style work."
+  },
+  "tags": [
+    "basics",
+    "json",
+    "yaml",
+    "xml",
+    "serialization"
+  ]
+}

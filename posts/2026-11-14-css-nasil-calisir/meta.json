@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-14",
+  "topic": "frontend",
+  "series": "",
+  "seriesOrder": 1,
+  "title": {
+    "tr": "CSS nasıl çalışır? Kaskad, özgüllük, Flexbox ve Grid",
+    "en": "How does CSS work? The cascade, specificity, Flexbox and Grid"
+  },
+  "slug": {
+    "tr": "css-nasil-calisir",
+    "en": "how-does-css-work"
+  },
+  "summary": {
+    "tr": "Bir elemana birden çok kural uyduğunda kazananı kaskad belirler; düzeni tek boyutta Flexbox, iki boyutta Grid kurar.",
+    "en": "When several rules match an element, the cascade picks the winner; Flexbox lays things out in one dimension, Grid in two."
+  },
+  "tags": [
+    "frontend",
+    "css",
+    "flexbox",
+    "grid"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-11",
+  "topic": "data",
+  "series": "",
+  "seriesOrder": 2,
+  "title": {
+    "tr": "Veritabanı indeksi nasıl çalışır? Ne zaman zarar verir?",
+    "en": "How does a database index work? When does it hurt?"
+  },
+  "slug": {
+    "tr": "veritabani-indeksi-nasil-calisir",
+    "en": "how-does-a-database-index-work"
+  },
+  "summary": {
+    "tr": "İndeks, okumayı tam tablo taramasından birkaç adımlık bir ağaç aramasına indirir; bedelini her yazmada ve diskte ödersin.",
+    "en": "An index turns a full table scan into a few steps down a tree; you pay for it on every write and in disk space."
+  },
+  "tags": [
+    "database",
+    "index",
+    "performance",
+    "b-tree"
+  ]
+}

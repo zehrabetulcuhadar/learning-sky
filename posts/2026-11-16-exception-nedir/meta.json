@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-16",
+  "topic": "basics",
+  "series": "",
+  "seriesOrder": 2,
+  "title": {
+    "tr": "İstisna (exception) nedir? Hata yönetimi nasıl yapılır?",
+    "en": "What is an exception? How should errors be handled?"
+  },
+  "slug": {
+    "tr": "exception-nedir-hata-yonetimi",
+    "en": "what-is-an-exception-error-handling"
+  },
+  "summary": {
+    "tr": "Exception, bir fonksiyonun sözünü tutamadığını haber veren bir mekanizma; yakalanacak yer, hatayla gerçekten bir şey yapabilen yerdir.",
+    "en": "An exception is how a function reports it cannot keep its promise; the place to catch it is where you can actually do something about it."
+  },
+  "tags": [
+    "basics",
+    "exceptions",
+    "error-handling",
+    "csharp"
+  ]
+}

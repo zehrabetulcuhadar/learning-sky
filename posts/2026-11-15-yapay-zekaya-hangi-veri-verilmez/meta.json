@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-15",
+  "topic": "ai",
+  "series": "",
+  "seriesOrder": 1,
+  "title": {
+    "tr": "Yapay zekâ kullanırken hangi veri paylaşılmaz? Gizlilik, KVKK ve şirket kuralları",
+    "en": "What data should you never share with AI? Privacy, KVKK and company rules"
+  },
+  "slug": {
+    "tr": "yapay-zekaya-hangi-veri-paylasilmaz",
+    "en": "what-data-not-to-share-with-ai"
+  },
+  "summary": {
+    "tr": "Bir yapay zekâ aracına yapıştırdığın her şey şirketin dışına çıkan veridir; sırlar, kişisel veriler ve gizli iş bilgisi önce maskelenir ya da hiç paylaşılmaz.",
+    "en": "Everything you paste into an AI tool is data leaving the company; secrets, personal data and confidential business information are masked first or never shared."
+  },
+  "tags": [
+    "ai",
+    "privacy",
+    "security",
+    "kvkk"
+  ]
+}

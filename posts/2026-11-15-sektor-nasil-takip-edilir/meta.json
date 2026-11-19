@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-15",
+  "topic": "news",
+  "series": "",
+  "seriesOrder": 1,
+  "title": {
+    "tr": "Yazılım sektörü nasıl takip edilir? Haftalık okuma rutinim",
+    "en": "How do you keep up with the software industry? My weekly reading routine"
+  },
+  "slug": {
+    "tr": "yazilim-sektoru-nasil-takip-edilir",
+    "en": "how-to-keep-up-with-the-software-industry"
+  },
+  "summary": {
+    "tr": "Her şeyi okumak imkânsız; az ama güvenilir kaynak, sabit bir zaman ve 'bu beni ne kadar ilgilendiriyor?' filtresi yetiyor.",
+    "en": "Reading everything is impossible; a few trusted sources, a fixed time slot and a 'how much does this affect me?' filter are enough."
+  },
+  "tags": [
+    "news",
+    "learning",
+    "habits",
+    "rss"
+  ]
+}

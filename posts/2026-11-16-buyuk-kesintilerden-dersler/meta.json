@@ -1,0 +1,25 @@
+{
+  "status": "published",
+  "date": "2026-11-16",
+  "topic": "news",
+  "series": "",
+  "seriesOrder": 2,
+  "title": {
+    "tr": "Büyük kesintilerden ne öğrendik? CrowdStrike, AWS ve Cloudflare",
+    "en": "What did we learn from the big outages? CrowdStrike, AWS and Cloudflare"
+  },
+  "slug": {
+    "tr": "buyuk-kesintilerden-ne-ogrendik",
+    "en": "lessons-from-big-outages"
+  },
+  "summary": {
+    "tr": "Son yılların en büyük kesintilerinin çoğu saldırı değil, bir yapılandırma ya da güncellemeydi; ortak ders kademeli yayın, sınır kontrolü ve küçük etki alanı.",
+    "en": "Most of the biggest outages of recent years were not attacks but a config change or an update; the shared lessons are staged rollouts, input validation and a small blast radius."
+  },
+  "tags": [
+    "news",
+    "outage",
+    "postmortem",
+    "reliability"
+  ]
+}
